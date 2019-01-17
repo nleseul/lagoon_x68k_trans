@@ -1,0 +1,56 @@
+Read characters from text at 0x8955c. A0 is the source address.
+  0x89542 is the beginning of the subroutine that writes a line.
+  0x8930a is the beginning of the subroutine that writes a paragraph.
+  0x7f536 starts off a lot of it? Not sure.
+  Start location is determined at 0x7f31a. The pointer in A1 points to an offset from the start of the IVENT file.
+  
+Text copied from IVENT files to 0x80f1e for each map. 
+
+LAGOON.X (minus header) is at 0x7eef0 at runtime, 0x22440 on system disk
+  
+At runtime, 0x82f1e holds a table of character status?
+  Subroutine at 0x8581a clears it; 0x854a4 builds it? Called from 0x85090.
+  
+Pointer to scripted movement gets stored at 0x8f21a, apparently? Seems to be code involved nearby, e.g. 0x8f20e. 0x8f1e6 is earlier?
+
+There's a big block of text in LAGOON.X at 0x194d8 that is probably item names and similar. Surely there's a pointer table nearby?
+
+0x8955c is checking for control codes? Between 0x7371 and 0x7379. I think they're text colors.
+    For my purposes, I'll convert these to 0xc9 through 0xd2, since those are easy to type with alt codes (Alt-201 through Alt-209).
+More control codes at 0x89574.
+    0x7370 (page break, renders as some funny kanji)
+        Convert to \ (0x5c)
+    0x2177 (animation, full-width @)
+        Convert to @ (0x40)
+    0x214e (full-width [)
+        Convert to [ (0x5b)
+    0x214f (full-width ])
+        Convert to ] (0x5d)
+    0x215c (possibly animation? full-width +)
+        Convert to ^ (0x5e)
+    0x215d (possibly also animation. full-width -)
+        Convert to _ (0x5f)
+The blink animation on punctuation marks is done with a subroutine at 0x8983e. It tests the location of the graphics data in the system ROM for some reason. 
+Tests happen at 0x897c6? There's another similar set at 0x89730 that goes to 0x89750; not sure what it does yet.
+    0xf3aa20 - !
+    0xf3aaf0 - .
+    0xf3ac00 - ?
+    
+Load/save messages seem to be set up at 0x8a71e? One is at 0x8b0f0, the other at 0x8b104. Another one is at 0x8b118, two characters? 
+
+0x84e66 is the message when trying to load saves on a system disk. Or maybe just when there are no saves to load?
+
+Miscellaneous strings start at 0x98388
+0x84eca seems to be the subroutine that finds the start address of miscellaneous strings? All it does is scan the text and count newlines. This is just for area names?
+There's some code that does exactly the same thing at 0x891fa for building names.
+Item names also call 0x84eca, but they start relative to a later address, 0x98690. (That's embedded in an instruction at 0x886ca.)
+
+
+
+
+
+0x4e71 - NOP
+  
+  
+At 0x895ac, TRAP #15 seems like it may look up the location of the character data given a character code? 
+TRAP #15 leads to an interrupt handler at #ff1adc... system software? D0=0x16, D2=0x08, ends up at 0xff6a28
