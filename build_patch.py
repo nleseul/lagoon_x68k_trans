@@ -160,9 +160,18 @@ if __name__ == '__main__':
             print('Unpacking failed')
             continue
 
+        csv_path = 'csv/ivent/{0}.csv'.format(base_filename)
         if args.init_csv:
-            init_csv(unpacked_data, 'csv/ivent/{0}.csv'.format(base_filename))
+            init_csv(unpacked_data, csv_path)
 
+        translation_map = {}
+        with open(csv_path, 'r', encoding='utf8') as in_file:
+            reader = csv.reader(in_file, lineterminator='\n')
+            for row in reader:
+                translation_map[row[0]] = row[1]
+
+        for text in unpacked_data['text']:
+            text['new_text'] = translation_map[text['orig_text']]
 
         out_data = ivent_util.pack_ivent(unpacked_data)
         if out_data is None:
