@@ -4,10 +4,17 @@
 隠れていたんだ。齔
 ポーションがあると
 いいんだがなあ。齔
-お前持ってるか？",Text 0
-ありがとう。,Text 1
-頼む。持ってきてくれよ。,Text 2
-持ってないじゃないか。,Text 3
+お前持ってるか？","Nassel! Is that you?
+When did you get home?\
+I got injured, and
+I've been hiding.\
+If only I had a Potion...\
+Do you have one?"
+ありがとう。,Thanks!
+頼む。持ってきてくれよ。,"Bring one for me.
+I'm counting on you!"
+持ってないじゃないか。,"You don't have
+one, do you?"
 "ありがとう。
 おかげで助かったよ。
 これで帰れる。
@@ -15,4 +22,11 @@
 妙な扉があったろう。
 その事を、祈祷所の
 おばばが言っていたのを
-聞いた事があるぜ。",Text 4
+聞いた事があるぜ。","Thanks! You're a life-saver!
+Use this to return to town.\
+By the way... wasn't
+there a funny door
+on the first floor?\
+I think I've heard the
+old lady at the sanctum
+saying something about that."

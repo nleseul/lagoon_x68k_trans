@@ -1,45 +1,75 @@
 "ナセルじゃないか！
 よく戻ってきたな。
-きっと皆、喜ぶぞ。",Text 0
+きっと皆、喜ぶぞ。","Nassel? Welcome back!
+I'm sure everyone will
+be delighted."
 "ひゃー！驚いた！
-ナセルじゃないの。",Text 1
+ナセルじゃないの。","Hyaa! You startled me!
+Is that you, Nassel?"
 "よお！ナセル。
-たくましくなったなあ。",Text 2
+たくましくなったなあ。","Ho, Nassel! You've
+toughened up!"
 "本当にナセルなの？
-見違えちゃった。",Text 3
+見違えちゃった。","Is that really you, Nassel?
+I hardly recognize you!"
 "よく戻ったな。
-村長さんに挨拶したか？",Text 4
-お兄ちゃん、だれ？,Text 5
+村長さんに挨拶したか？","Welcome back! Have
+you visited the mayor?"
+お兄ちゃん、だれ？,"Who're you, mister?"
 "素敵になったわね。
-ナセル。",Text 6
+ナセル。","How lovely you've
+become, Nassel!"
 "よぉ！修行の成果を
-見せてくれよ。",Text 7
+見せてくれよ。","Hey! Show me the results
+of your training!"
 "ダグのお母さんの具合い、
-あまり良くないらしいんだ。",Text 8
+あまり良くないらしいんだ。","Dag's mother's health
+doesn't seem very good."
 "ナセル！帰ったんだね。
 おばさんは嬉しいよ。齔
 早くお母さんに
-顔を見せておやり。",Text 9
+顔を見せておやり。","Nassel! You've returned!
+Your auntie is delighted!\
+Hurry and let your mother
+see your face!"
 "何が欲しいんだ？
 買うかい？
 ありがとう。
 持っているだろ。
-金が足りないぜ。",Text 10
+金が足りないぜ。","What do you want?
+Buy it?
+Thanks.
+You've got one!
+Not enough gold."
 "何にしますか？
 買いますか？
 ありがとう。
 持っていますよ。
-お金が足りません",Text 11
+お金が足りません","How can I help?
+Buy this?
+Thank you.
+You have one!
+You can't afford it."
 "最近いいお酒が
 入って来ないのよね。
 フィリップス城じゃ
 この時期になると
 いつもおいしい
 ワインを作って
-いたのに・・・。＠",Text 12
+いたのに・・・。＠","We haven't gotten
+any good stock
+lately.
+Even though
+excellent wine is
+always made at
+Phillips Castle
+this time of year...@"
 "何の用じゃ。
 用が無いのなら
-帰っておくれ。",Text 13
+帰っておくれ。","What business do you
+have here? If you
+don't have any,
+go home."
 "＋！ナセル？ナセル？
 やっと帰ってきて
 くれたんだね・・・。
@@ -49,13 +79,28 @@
 −あっ！村長さんの所に
 挨拶して来なきゃね。
 村長さんもお前の事
-心配していたよ。",Text 14
+心配していたよ。","^Nassel? Nassel?
+Have you finally
+come home to me?
+Well, don't just
+stand there; come
+in!\
+_Oh! You have to go
+visit the mayor's
+house. He's been
+worried about you
+too!"
 "お父さんはここんとこ
 ムーンストーンとかを
-探しに行っているの。",Text 15
+探しに行っているの。","Lately, Father is
+out searching for a
+Moonstone or
+something."
 "化物が町のすぐ
 近くまで来るなんて
-恐ろしい事ね。",Text 16
+恐ろしい事ね。","It's terrible that
+monsters came so
+close to the town!"
 "＋＋ナセル・・・。
 また行って
 しまうのかい？
@@ -70,48 +115,93 @@
 ＋さあ。
 母さんが作った
 パンを持ってお行き。
-＋気を付けるんだよ。",Text 17
-＋＋気を付けるんだよ。,Text 18
+＋気を付けるんだよ。","^^Nassel... Do you
+have to leave again?
+...
+So...
+I suppose that must
+be the fate you were
+born to.
+__Be strong.\
+You mustn't throw
+your life away!
+^Bring your mother's
+bread with you.
+^Take care!"
+＋＋気を付けるんだよ。,^^Take care!
 "ナセル！良かった、
 元気そうで。
-逢いたかったわ。",Text 19
+逢いたかったわ。","Nassel! Hooray!
+You seem healthy.
+I've been wanting
+to see you!"
 "＋やぁ！ナセル！
 帰ってたんだ。
 −最近川の汚れが
 目立ってね、
 おふくろに水薬を
 飲ませられないんだ。
-困ったなあ。",Text 20
+困ったなあ。","^Hey! Nassel! You're
+back!
+_Lately, the river
+pollution's been
+bad, and I haven't
+been able to
+administer potions
+to Ma.
+I've been worried."
 "あら！＠ナセルちゃん！
 大きくなったわね。
-いつ帰ってきたの？",Text 21
+いつ帰ってきたの？","Oh! @It's little
+Nassel! You've
+gotten bigger!
+When did you get
+back?"
 "ごめんなさい。
-まだ帰ってないのよ。",Text 22
+まだ帰ってないのよ。","I'm sorry. He's
+not home yet."
 "最近どうも町の外の
-様子が変なんだ。",Text 23
+様子が変なんだ。","Things have been
+quite strange
+outside of town
+lately."
 "まさか、またでかけちまう
-んじゃないだろうね。",Text 24
+んじゃないだろうね。","What do you mean, you
+have to leave again?"
 "お母さんに心配
-かけるんじゃないよ。",Text 25
+かけるんじゃないよ。","Don't make your
+mother worry!"
 "町外れの洞窟には
 不思議な水晶が
-あるらしいわよ。",Text 26
+あるらしいわよ。","I hear there's a curious
+crystal in the cave
+outside of town."
 "化物が出るなんて
-何が起こったのだろう。",Text 27
+何が起こったのだろう。","I wonder what happened
+to make monsters appear?"
 "化物が恐くて、
-夜も寝られないよ。",Text 28
+夜も寝られないよ。","Monsters are scary! I can't
+even sleep at night!"
 "この先のエルフの村
 には、魔法の杖があるって
-うわさよ。",Text 29
+うわさよ。","It's rumored that there was
+once a magical staff in the
+village of elves."
 "今度また手合わせして
-くれよな。",Text 30
+くれよな。",We'll battle another time!
 "あの洞窟に魔物が
-出るなんて・・・。",Text 31
+出るなんて・・・。","How could monsters
+appear in that cave...?"
 "魔物が出るって噂は
-本当なの？ナセル。",Text 32
+本当なの？ナセル。","Are the rumors about
+monsters appearing
+true, Nassel?"
 "洞窟に魔物が
 出たんですって？
-物騒な話ね。＠",Text 33
+物騒な話ね。＠","You say monsters
+came out of the
+cave? That's a
+disturbing story.@"
 "＋ほう、あの扉に
 興味があるのかえ？
 あの扉は、魔法で
@@ -125,18 +215,40 @@
 母親に逢ってから
 いくがよいぞ。
 ＋生きて戻れるか
-分からないからの。",Text 34
+分からないからの。","^So... you have an
+interest in that
+door? It's sealed by
+magic. This Exorcist
+Blade is necessary
+to unseal it. You
+should take it.
+_But be prepared if
+you open that door!\
+You should visit
+your mother before
+you go.
+^I do not know if
+you can return
+alive..."
 "おじさまは
 ドワーフの町に
-行くと言ってたわ。",Text 35
+行くと言ってたわ。","Grandpa was saying
+he's going to the
+town of dwarves."
 "あっ、ナセル。
 さっきダグが
-探していたわよ。",Text 36
+探していたわよ。","Oh, Nassel. Dag was
+looking for you
+earlier."
 "＋ナセル・・・。
 ＋きっと無事で
 帰ってきてね。
-約束よ。",Text 37
-＋＋無茶しないでね。,Text 38
+約束よ。","^Nassel...
+^Be sure to come
+home safe... okay?
+Promise me!"
+＋＋無茶しないでね。,"^^Don't do anything
+crazy!"
 "＋＋あっ、ナセル！
 聞いたかい？
 大変なんだ！
@@ -150,14 +262,31 @@
 くれてたんだ。
 村長さんに言って
 洞窟の入口を
-開けてもらわなきゃ。",Text 39
+開けてもらわなきゃ。","^^Hey, Nassel! Have
+you heard? It's
+awful! Apparently,
+Gilys is still
+inside the cave.
+His legs were hurt,
+so he didn't get out
+in time.\
+Gilys went to the
+elf town to look for
+medicine for my
+mother. Can you talk
+to the mayor and get
+him to open the cave
+entrance?"
 "ごめんなさいね。
 うちの人、ついさっき
 教会に出かけちゃった
-のよ。",Text 40
+のよ。","I'm sorry, dear.
+My husband just left
+for the church."
 "ああ、ナセルちゃん。
-ちょっと待ってね。",Text 41
-気を付けるのよ。,Text 42
+ちょっと待ってね。","Ah, Nassel!
+Just a moment."
+気を付けるのよ。,Be careful!
 "ナセル。
 いい所に来た。
 実はお前に頼みが
@@ -186,17 +315,54 @@
 洞窟の入口は
 開けておこう。
 装備を整えてから
-行くようにな。",Text 43
+行くようにな。","Nassel, you came at
+a good time.
+The fact is, I need
+a favor from you.
+And the favor I'm
+talking about
+concerns Gilys. As
+you've also heard,
+he's been trapped
+inside that cave.\
+It's unfair to you,
+so soon after your
+return, but you are
+the only one in this
+town who can fight
+the monsters.\
+It's possible that
+they relate to the
+corruption of the
+water. Think of it
+as saving the town!\
+[Oh, of course. Take
+this letter to
+Prince Phillips], and
+provision yourself
+for the journey with
+this small sum.
+I'll have the cave
+opened. Gather some
+equipment before you
+leave!"
 "＋母親に逢ってから
-いくことじゃ。",Text 44
+いくことじゃ。","^Are you visiting
+your mother before
+you go?"
 "＋魔物ってこの町にも
-襲って来るのかしら。",Text 45
-＋＋ギルス大丈夫かなあ。,Text 46
-頑張ってくれよ。,Text 47
+襲って来るのかしら。","^I wonder if those
+monsters will attack
+the town too?"
+＋＋ギルス大丈夫かなあ。,^^Is Gilys okay?
+頑張ってくれよ。,Don't give up!
 "どこから迷い込んだか
 知らんが、
 可愛いもんじゃ。
-抱いてみるかえ？",Text 48
+抱いてみるかえ？","I don't know where they
+wandered in from, but they
+are cuties. Could we try
+giving them hugs?"
 "＋ありがとう。
 さっきギルスが
 帰って来たよ。
@@ -206,4 +372,11 @@
 危険な所へ行こうと
 するの？
 レイアが
-心配していたよ。",Text 49
+心配していたよ。","^Thank you. Gilys returned
+a while ago.
+^But, Nassel...
+Do you have to leave again?
+Why go to dangerous places
+deliberately?
+Reia has been worried about
+you."

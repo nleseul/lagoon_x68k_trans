@@ -1,23 +1,37 @@
 "ここを通るには
 村長さんの許可が
-いるんだぜ。",Text 0
+いるんだぜ。","To go through here,
+you'll need the
+mayor's permission."
 "村長さんに許可を
-もらっておいでよ。",Text 1
+もらっておいでよ。","Go get the mayor's
+permission!"
 "ここはわしにまかせて、
-一旦家に帰りなさい。",Text 2
+一旦家に帰りなさい。","Please leave this to
+me and return home."
 "・・・洞窟の中に
 大きな何かがいる・・・。
 ・・・扉の向こうに・・・
 消えて行った・・・。
-お・・・恐ろしい・・・。",Text 3
+お・・・恐ろしい・・・。","...in the cave...
+Something huge...
+It vanished...
+...behind the door...
+...T-terrible..."
 "魔物が来るというんで
 洞窟の入口を封鎖した
-んだ。",Text 4
+んだ。","Since he reported monsters,
+we've blocked the cave
+entrance."
 "この中には魔物が
-いるらしいぜ。",Text 5
+いるらしいぜ。","Seems there are
+monsters in here!"
 "やばいから入らん
-方がいいぞ。",Text 6
+方がいいぞ。","It's dangerous.
+Better not go in!"
 "おいおい、素手で戦おうって
 いうのかい？
-洞窟には化物がいるんだぜ。",Text 7
-齧気絶している齪,Text 8
+洞窟には化物がいるんだぜ。","Oi, you planning to
+fight unarmed? There
+are monsters in the cave!"
+齧気絶している齪,ÎHe's passed out.Ð
