@@ -1,3 +1,5 @@
+import text_util
+
 init_operations = {
     0x00: {'length': 0},
     0x01: {'length': 1},
@@ -112,21 +114,7 @@ def unpack_ivent(reader):
                 # Terminator; no further decoration required.
                 pass
             elif op_code == 0x70:
-                text_bytes = bytearray()
-                text = ''
-                while True:
-                    b = reader.read(1)
-                    if b == b'\x00':
-                        if len(text) > 0:
-                            text += '\n'
-                        text += (b'\033$B' + text_bytes).decode('iso2022_jp')
-                        if reader.peek(1)[:1] == b'\x70':
-                            reader.read(1)
-                            text_bytes = bytearray()
-                        else:
-                            break
-                    else:
-                        text_bytes += b
+                text = text_util.decode_japanese(reader)
 
                 event['text_id'] = len(text_table)
                 text_table.append({'id': event['text_id'], 'orig_text': text, 'new_text': "Text {0}".format(event['text_id'])})
@@ -231,13 +219,7 @@ def pack_ivent(ivent_data):
         out_data.append(op_code)
 
         if op_code == 0x70:
-            string_bytes = bytearray()
-            for line in text_map[event['text_id']].splitlines():
-                if len(string_bytes) != 0:
-                    string_bytes += b'\x00\x70'
-                string_bytes += line.encode('latin-1')
-            out_data += string_bytes
-            out_data.append(0x00)
+            out_data += text_util.encode_english(text_map[event['text_id']])
         elif op_code == 0x00:
             # No content; do nothing.
             pass
