@@ -41,7 +41,8 @@ def encode_english(text, enforce_length=None):
     out_data.append(0x00)
 
     if enforce_length is not None:
-        if len(out_data) >= enforce_length:
+        if len(out_data) > enforce_length:
+            print(out_data.hex())
             raise Exception('String \'{0}\' is too long for a space of {1} bytes!'.format(text, enforce_length))
         else:
             out_data = out_data.ljust(enforce_length, b'\x00')

@@ -15,6 +15,31 @@ def add_record_checked(patch, address, data, length):
 
     patch.add_record(address, data)
 
+def read_string_table(reader):
+    string_table = []
+    while True:
+        if reader.read(1) != b'\x70':
+            break
+
+        string_table.append(text_util.decode_japanese(reader))
+
+        if f.peek()[:1] == b'\x1c':
+            f.read(1)
+
+    return string_table
+
+def encode_string_table(string_table):
+    out_data = bytearray()
+    offsets = []
+    for line in string_table:
+        offsets.append(len(out_data))
+
+        out_data.append(0x70)
+        out_data += text_util.encode_english(line)
+        out_data.append(0x1c)
+
+    return (out_data, offsets)
+
 def create_lagoon_x_patch(orig_data):
     BYTES_NOP = b'\x4e\x71'
 
@@ -122,6 +147,26 @@ def create_lagoon_x_patch(orig_data):
     # Item received
     patch.add_record(0x7132, text_util.encode_english('was obtained!', 17))
 
+    # Shop text
+    patch.add_record(0x16189, text_util.encode_english('                    ', 21)) # Clears the message window.
+    patch.add_record(0x161a0, text_util.encode_english('Yes', 5))
+    patch.add_record(0x161a7, text_util.encode_english('No', 7))
+
+    # Miscellaneous text table
+    with open('csv/misc_strings.csv', 'r', encoding='utf8') as in_file:
+        reader = csv.reader(in_file, lineterminator='\n')
+        string_data, string_offsets = encode_string_table([row[1] for row in reader])
+        string_data = string_data.ljust(0x75d, b'\x00')
+        add_record_checked(patch, 0x194d8, string_data, 0x75d)
+
+        # Item names are indexed relative to the address of string index 58. There are a couple of different
+        # routines for that (one for shops, one for inventory, and one more for item acquisition?).
+        item_start_offset_bytes = (0x194d8 + string_offsets[58] - 0x40).to_bytes(3, byteorder='big')
+        patch.add_record(0x6bf9, item_start_offset_bytes)
+        patch.add_record(0x6cc1, item_start_offset_bytes)
+        patch.add_record(0x80cd, item_start_offset_bytes)
+        patch.add_record(0x981d, item_start_offset_bytes)
+
     return patch
 
 def init_csv(ivent_data, filename):
@@ -187,7 +232,16 @@ if __name__ == '__main__':
     lagoon_x_out_data = bytes()
     with open(os.path.join(args.src_directory, 'LAGOON.X'), 'rb') as f:
         lagoon_x_in_data = f.read()
+
+        if args.init_csv:
+            with open('csv/misc_strings.csv', 'w+', encoding='utf8') as str_file:
+                writer = csv.writer(str_file, lineterminator='\n')
+                f.seek(0x194d8)
+                for index, line in enumerate(read_string_table(f)):
+                    writer.writerow([line, 'Misc{0:02}'.format(index)])
+
         lagoon_x_out_data = create_lagoon_x_patch(lagoon_x_in_data).apply(lagoon_x_in_data)
+
     with open(os.path.join(args.dest_directory, 'LAGOON.X'), 'w+b') as f:
         f.write(lagoon_x_out_data)
     print('OK')
