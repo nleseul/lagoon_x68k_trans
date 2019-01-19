@@ -45,16 +45,23 @@ def create_lagoon_x_patch(orig_data):
 
     patch = Patch()
 
-    # NOP something... probably window rendering.
+    # NOP something... searches for the end of the current string. Need to search by bytes instead of words.
     patch.add_record(0x06aa, BYTES_NOP * 2)
 
-    # NOP something else
+    # NOP something else... I believe this one renders dialog windows.
     patch.add_record(0xa4ca, BYTES_NOP * 2)
 
     # I think this bit renders the glyph to the text buffer?
     patch.add_record(0xa864, BYTES_NOP)   # Increment the destination less.
     patch.add_record(0xa869, b'\x7f')     # Offset to start of next glyph.
     patch.add_record(0xa870, b'\xf7\xff') # Offset back to the top, I think?
+
+    # This is in a routine that fills in an opaque background behind each glyph.
+    # We need to shift the math around until it only writes background behind
+    # one 8x16 glyph instead of two. There were originally two incrementing
+    # OR operations in a row to fill two bytes; we replace the first one with
+    # "ADD.L #1,A1" and then a NOP.
+    patch.add_record(0xaa3a, b'\x52\x89' + BYTES_NOP)
 
 
     # The code around 0xa650 is counting the number of characters in a string
@@ -111,6 +118,9 @@ def create_lagoon_x_patch(orig_data):
     # Some of the same when counting characters...
     patch.add_record(0xa65e, b'\x00\x5c')
     patch.add_record(0xa66c, b'\x00\x40')
+
+    # And when measuring dialog windows.
+    patch.add_record(0xa4d0, b'\x00\x5c')
 
     # Punctuation marks, used to trigger blink animations on portraits. Uses addresses in the
     # system font graphics for some reason? Order doesn't matter; they all go to the same place.
