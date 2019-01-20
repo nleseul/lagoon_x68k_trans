@@ -1,6 +1,7 @@
 import argparse
 import csv
 import glob
+import io
 import os
 import sys
 
@@ -39,6 +40,52 @@ def encode_string_table(string_table):
         out_data.append(0x1c)
 
     return (out_data, offsets)
+
+def read_animation_timing(reader):
+    animations = []
+
+    current_char = []
+    current_anim = []
+
+    while True:
+        pos = reader.tell()
+        frame = reader.read(1)
+
+        if frame == b'\x00':
+            break
+        elif frame == b'\x80':
+            current_char.append(current_anim)
+            current_anim = []
+        elif frame == b'\xff':
+            if len(current_anim) > 0:
+                current_char.append(current_anim)
+                current_anim = []
+            animations.append(current_char)
+            current_char = []
+        else:
+            duration = reader.read(1)
+            current_anim.append({'frame': frame[0], 'duration': duration[0]})
+
+    return animations
+
+def encode_animation_timing(animation_list):
+    out_data = bytearray()
+
+    for character in animation_list:
+        for animation in character:
+            for frame in animation:
+                out_data.append(frame['frame'])
+                out_data.append(frame['duration'])
+
+
+            # Silly special case... there's one particularly long animation that doesn't happen
+            # to be terminated with 0x80 in the original data. Reproduce that oddity to stay consistent.
+            if len(animation) < 100:
+                out_data.append(0x80)
+        out_data.append(0xff)
+
+    return out_data
+
 
 def create_lagoon_x_patch(orig_data):
     BYTES_NOP = b'\x4e\x71'
@@ -176,6 +223,23 @@ def create_lagoon_x_patch(orig_data):
         patch.add_record(0x6cc1, item_start_offset_bytes)
         patch.add_record(0x80cd, item_start_offset_bytes)
         patch.add_record(0x981d, item_start_offset_bytes)
+
+
+    # There's a big table starting at 0x16614 that appears to contain timing information for portrait
+    # animations, as far as I can tell. Without reverse-engineering that system too much, I'm guessing
+    # that one-frame animations with a duration of 4 are talking animations. I'll halve the duration
+    # of the talking frames, as best as I can naively identify them.
+    orig_reader = io.BytesIO(orig_data)
+    orig_reader.seek(0x16614)
+    animation_data = read_animation_timing(orig_reader)
+
+    for character in animation_data:
+        for animation in character:
+            if len(animation) == 1:
+                animation[0]['duration'] = 2
+
+    patch.add_record(0x16614, encode_animation_timing(animation_data))
+
 
     return patch
 

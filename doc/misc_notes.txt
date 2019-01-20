@@ -5,6 +5,7 @@ Read characters from text at 0x8955c. A0 is the source address.
   Start location is determined at 0x7f31a. The pointer in A1 points to an offset from the start of the IVENT file.
   
 Subroutine at 0x89b96 seems to take care of timing the speed of text somehow? 0x952a4 looks like the length of the timer, but it gets pulled from a data table somewhere for each bit of text?
+0x86e2c sets up buildings. 0x89c04 seems to load the animation info? $9529a holds the address of the timing data.
   
 Text copied from IVENT files to 0x80f1e for each map. 
 
