@@ -255,6 +255,9 @@ def create_lagoon_x_patch(orig_data):
 
     patch.add_record(0x16614, encode_animation_timing(animation_data))
 
+    # Double the speed of miscellaneous NPC text.
+    patch.add_record(0x6a2, b'\x00\x04')
+
 
     return patch
 

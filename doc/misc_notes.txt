@@ -53,6 +53,8 @@ $95056 is "no"? 0x9504f is "yes."
 
 0x87a00 draws the arrow in the shops.
 
+Timing for random NPC dialog is set up at 0x7f550. 0x898ba actually ticks the counter; it subtracts different amounts from it depending on whether a button is held or not.
+
 
 
 0x4e71 - NOP
