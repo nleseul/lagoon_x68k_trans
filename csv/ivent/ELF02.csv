@@ -29,24 +29,46 @@ terribly frightening...",
 フェリシア王女は、
 ラグーン城で、王様、お妃様
 と共に仲良く暮らして
-おられる。",Text 3,
+おられる。","There are 3 castles
+here in Lake Leland:\
+Lagoon Castle, where the king
+lives; Mark Philips castle,
+where Prince Mark lives;\
+and Siegfrid Castle, where
+Prince Siegfrid lives.\
+Princess Ferisia resides 
+together with the King and
+Queen at Lagoon Castle.",
 "お兄ちゃん、魔法使い？
 それじゃあ水晶って
-見たことある？",Text 4,
+見たことある？","Are you a wizard, sir?
+Then have you seen a ""crystal""?
+",
 "フィリップス城に行った
 連中は、どうしたのだろう？
-心配で夜も眠れぬ。",Text 5,
+心配で夜も眠れぬ。","What could those people
+who went to Philips Castle
+have done? I can't sleep at
+night with worry.",
 "昨日、この町に変な奴が
 来たんだ。齔
 左右の目の色が違ってな、
 不気味なほどきれいな
-顔をしているんだよ。",Text 6,
+顔をしているんだよ。","Someone strange came
+to this town yesterday.\
+His eyes were different colors,
+and his face was too pretty
+to be of this world.",
 "フィリップス城の右側の
 入口は、魔物が封印して
-しまったって噂だよ。",Text 7,
+しまったって噂だよ。","It's rumored that a monster
+got sealed up in the passage
+to the right of Philips Castle.",
 "フィリップス城の向こうには
 ドワーフの町につながる
-砂漠があるんだぜ。",Text 8,
+砂漠があるんだぜ。","On the far side of Philips
+Castle, there's a desert that
+leads to the dwarf town.",
 "［御主か。マティアスの
 見つけてきたとか言う
 勇者とやらは。
@@ -58,7 +80,21 @@ terribly frightening...",
 なろうとは。
 この様な運命に導いた
 マティアスを
-恨むがよい。］＠",Text 9,
+恨むがよい。］＠","[You... are you the
+hero Mathias is
+supposed to have
+discovered?
+Hero or not, without
+the call of the Demon
+Blade, you've not gone
+beyond children's
+tantrums.\
+Pitiable, then, that
+you shall soon lose
+your life.
+You should curse
+Mathias, who led
+you to such a fate.]@",
 "ナセル。
 再開を喜びたいが、
 そんな暇はない。
@@ -71,12 +107,29 @@ terribly frightening...",
 この町に影響が
 現れて来るのも
 時間の問題だ。
-急がなくては・・・。",Text 10,
+急がなくては・・・。","Nassel. I would
+celebrate our
+reunion, but we have
+no such time. Already
+the crisis is upon us.
+Preparations to
+summon the dark god
+appear to be underway.\
+^I sense an evil
+presence._ It is only
+a matter of time until
+this town too is
+affected.
+Unless we hurry...",
 "何にする？
 買うの？
 どうもありがとう。
 持ってるじゃない。
-お金が足りないわ。",Text 11,
+お金が足りないわ。","How can I help?
+This one?
+Thank you very much.
+Don't you have one?
+You can't afford it.",
 "ごめんよ。
 君が欲しがって
 いるような物は、
