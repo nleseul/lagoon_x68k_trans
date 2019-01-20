@@ -51,6 +51,8 @@ Load/save messages seem to be set up at 0x8a71e? One is at 0x8b0f0, the other at
 0x95038 appears to be what's used to clear the shop text?
 $95056 is "no"? 0x9504f is "yes." 
 
+0x87a00 draws the arrow in the shops.
+
 
 
 0x4e71 - NOP

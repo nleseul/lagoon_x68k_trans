@@ -92,6 +92,8 @@ def create_lagoon_x_patch(orig_data):
 
     patch = Patch()
 
+    orig_reader = io.BytesIO(orig_data)
+
     # NOP something... searches for the end of the current string. Need to search by bytes instead of words.
     patch.add_record(0x06aa, BYTES_NOP * 2)
 
@@ -224,12 +226,20 @@ def create_lagoon_x_patch(orig_data):
         patch.add_record(0x80cd, item_start_offset_bytes)
         patch.add_record(0x981d, item_start_offset_bytes)
 
+    # The arrow graphic used in the shop is stored in the executable for some reason? It's stored as a
+    # full-width character, but it should only be half-width.
+    new_arrow_data = bytearray()
+    orig_reader.seek(0x19c36)
+    for _ in range(16):
+        new_arrow_data.append(orig_reader.read(2)[0])
+    new_arrow_data = new_arrow_data.ljust(32, b'\x00')
+    patch.add_record(0x19c36, new_arrow_data)
+
 
     # There's a big table starting at 0x16614 that appears to contain timing information for portrait
     # animations, as far as I can tell. Without reverse-engineering that system too much, I'm guessing
     # that one-frame animations with a duration of 4 are talking animations. I'll halve the duration
     # of the talking frames, as best as I can naively identify them.
-    orig_reader = io.BytesIO(orig_data)
     orig_reader.seek(0x16614)
     animation_data = read_animation_timing(orig_reader)
 
@@ -237,6 +247,11 @@ def create_lagoon_x_patch(orig_data):
         for animation in character:
             if len(animation) == 1:
                 animation[0]['duration'] = 2
+            elif len(animation) == 20 and animation[0]['duration'] == 7:
+                # An animation with length 20 using duration 7 is used by the mayor in Atland, synchronized
+                # with dialog about a letter. Speed that up to reflect the overall faster text speed.
+                for frame in animation:
+                    frame['duration'] = 3
 
     patch.add_record(0x16614, encode_animation_timing(animation_data))
 
