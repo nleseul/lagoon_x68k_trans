@@ -17,7 +17,7 @@
 ドワーフの洞窟,Dwarf cave
 ドワーフの洞窟,Dwarf cave
 ドワーフの洞窟,Dwarf cave
-光る石の部屋,Light stone room
+光る石の部屋,Glowing stone room
 ＥＡＲＤＯＮ,Eardon
 ホビットの谷,Hobbit vale
 ポパー,Popeh
@@ -83,54 +83,53 @@
 流破の杖,Misc82
 雷光の杖,Misc83
 破邪の剣,Misc84
-アイテム予備０,Misc85
-アイテム予備１,Misc86
-アイテム予備２,Misc87
-アイテム予備３,Misc88
-アイテム予備４,Misc89
-アイテム予備５,Misc90
-アイテム予備６,Misc91
-アイテム予備７,Misc92
-アイテム予備８,Misc93
-ＧＯＬＤ,Misc94
-ショートソード,Misc95
-シルバーソード,Misc96
-マジックソード,Misc97
-フォースソード,Misc98
-ムーンブレイド,Misc99
-プレートメイル,Misc100
-ソニックアーマー,Misc101
-ゴールドアーマー,Misc102
-サンダーアーマー,Misc103
-ムーンアーマー,Misc104
-アイアンシールド,Misc105
-ラージシールド,Misc106
-グレートシールド,Misc107
-マキシムシールド,Misc108
-ムーンシールド,Misc109
-武防盾予備０,Misc110
-武防盾予備１,Misc111
-武防盾予備２,Misc112
-武防盾予備３,Misc113
-武防盾予備４,Misc114
-武防盾予備５,Misc115
-武防盾予備６,Misc116
-武防盾予備７,Misc117
-武防盾予備８,Misc118
-武防盾予備９,Misc119
-ポーション,Misc120
-エリクサー,Misc121
-命の珠,Misc122
-光の石,Misc123
-輝きの石,Misc124
-売り物予備０,Misc125
-売り物予備１,Misc126
-売り物予備２,Misc127
-売り物予備３,Misc128
-売り物予備４,Misc129
-売り物予備５,Misc130
-売り物予備６,Misc131
-売り物予備７,Misc132
-売り物予備８,Misc133
-売り物予備９,Misc134
-,
+アイテム予備０,
+アイテム予備１,
+アイテム予備２,
+アイテム予備３,
+アイテム予備４,
+アイテム予備５,
+アイテム予備６,
+アイテム予備７,
+アイテム予備８,
+ＧＯＬＤ, gold
+ショートソード,Short sword
+シルバーソード,Silver sword
+マジックソード,Magic sword
+フォースソード,Force sword
+ムーンブレイド,Moonblade
+プレートメイル,Plate mail
+ソニックアーマー,Sonic armor
+ゴールドアーマー,Gold armor
+サンダーアーマー,Thunder armor
+ムーンアーマー,Moon armor
+アイアンシールド,Iron shield
+ラージシールド,Large shield
+グレートシールド,Great shield
+マキシムシールド,Maxima shield
+ムーンシールド,Moon shield
+武防盾予備０,
+武防盾予備１,
+武防盾予備２,
+武防盾予備３,
+武防盾予備４,
+武防盾予備５,
+武防盾予備６,
+武防盾予備７,
+武防盾予備８,
+武防盾予備９,
+ポーション,Potion
+エリクサー,Elixir
+命の珠,Pearl of life
+光の石,Light stone
+輝きの石,Radiant stone
+売り物予備０,
+売り物予備１,
+売り物予備２,
+売り物予備３,
+売り物予備４,
+売り物予備５,
+売り物予備６,
+売り物予備７,
+売り物予備８,
+売り物予備９,
