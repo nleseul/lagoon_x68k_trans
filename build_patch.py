@@ -188,7 +188,19 @@ def create_lagoon_x_patch(orig_data):
     # Text in the executable!
 
     # Instruction to insert the user disk.
-    patch.add_record(0x4fdc, text_util.encode_english('If you have a user disk,      \nplease exchange it for the    \nsystem disk. Otherwise, leave \nthe system disk in place.     ', 128))
+    patch.add_record(0x4fdc, text_util.encode_english('If you have a user disk,      \n'
+                                                      'please exchange it for the    \n'
+                                                      'system disk. Otherwise, leave \n'
+                                                      'the system disk in place.     ', 128))
+
+    # Text when using the mayor's letter.
+    patch.add_record(0x5a1a, text_util.encode_english('...the... and...\n'
+                                                      '...but it...\n'
+                                                      '...so we...\n'
+                                                      '...I think.\\\n'
+                                                      'It\'s nothing but\n'
+                                                      'difficult words, and\n'
+                                                      'Nassel can\'t read it.', 123))
 
     # Game over!
     patch.add_record(0x4fc7, text_util.encode_english('Game Over', 20))
@@ -251,7 +263,7 @@ def create_lagoon_x_patch(orig_data):
                 # An animation with length 20 using duration 7 is used by the mayor in Atland, synchronized
                 # with dialog about a letter. Speed that up to reflect the overall faster text speed.
                 for frame in animation:
-                    frame['duration'] = 3
+                    frame['duration'] = 4
 
     patch.add_record(0x16614, encode_animation_timing(animation_data))
 
