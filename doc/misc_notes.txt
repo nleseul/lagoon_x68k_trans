@@ -14,6 +14,8 @@ LAGOON.X (minus header) is at 0x7eef0 at runtime, 0x22440 on system disk
 At runtime, 0x82f1e holds a table of character status?
   Subroutine at 0x8581a clears it; 0x854a4 builds it? Called from 0x85090.
   
+0x83bf4 holds EXP. 0x83bf6 holds gold.
+  
 Pointer to scripted movement gets stored at 0x8f21a, apparently? Seems to be code involved nearby, e.g. 0x8f20e. 0x8f1e6 is earlier?
 
 There's a big block of text in LAGOON.X at 0x194d8 that is probably item names and similar. Surely there's a pointer table nearby?

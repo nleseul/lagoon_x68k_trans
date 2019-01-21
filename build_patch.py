@@ -259,9 +259,10 @@ def create_lagoon_x_patch(orig_data):
         for animation in character:
             if len(animation) == 1:
                 animation[0]['duration'] = 2
-            elif len(animation) == 20 and animation[0]['duration'] == 7:
+            elif (len(animation) == 20 and animation[0]['duration'] == 7) or (len(animation) == 105 and animation[0]['duration'] == 8):
                 # An animation with length 20 using duration 7 is used by the mayor in Atland, synchronized
-                # with dialog about a letter. Speed that up to reflect the overall faster text speed.
+                # with dialog about a letter. An animation with length 105 with duration 7 is used by Zerah in
+                # Voloh. Speed those both up to reflect the overall faster text speed.
                 for frame in animation:
                     frame['duration'] = 4
 

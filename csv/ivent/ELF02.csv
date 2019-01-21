@@ -1,24 +1,24 @@
 "ラグーン城のフェリシア王女が
 フィリップス城に来てたそう
 だぜ。","Looks like Princess
-Fericia of Lagoon Castle
-has come to Phillips Castle.",
+Ferisia of Lagoon Castle
+has come to Philips Castle."
 "最近フィリップス城の
 様子がおかしいのよ。齔
 それで何人かお城に調べに
 行ったんだけど、誰も戻って
 来ないの。心配だわ。","Things have been strange at
-Phillips Castle lately.\
+Philips Castle lately.\
 Some people went to
 investigate, but none of
-them came back. I'm worried...",
+them came back. I'm worried..."
 "昨日、この町に変な奴が
 来たの。齔
 とても恐ろしい気配を
 感じたわ。","A strange person came
 to this town yesterday.\
 Something about him felt
-terribly frightening...",
+terribly frightening..."
 "このレイクリーランドには
 ３つの城がある。齔
 王の居られるラグーン城、
@@ -38,37 +38,39 @@ and Siegfrid Castle, where
 Prince Siegfrid lives.\
 Princess Ferisia resides 
 together with the King and
-Queen at Lagoon Castle.",
+Queen at Lagoon Castle."
 "お兄ちゃん、魔法使い？
 それじゃあ水晶って
-見たことある？","Are you a wizard, sir?
-Then have you seen a ""crystal""?
-",
+見たことある？","Are you a wizard,
+mister? Then have you
+seen a ""crystal""?"
 "フィリップス城に行った
 連中は、どうしたのだろう？
-心配で夜も眠れぬ。","What could those people
-who went to Philips Castle
-have done? I can't sleep at
-night with worry.",
+心配で夜も眠れぬ。","What could have become
+of those people who went
+to Philips Castle? I can't
+sleep at night with worry."
 "昨日、この町に変な奴が
 来たんだ。齔
 左右の目の色が違ってな、
 不気味なほどきれいな
 顔をしているんだよ。","Someone strange came
 to this town yesterday.\
-His eyes were different colors,
-and his face was too pretty
-to be of this world.",
+His eyes were different
+colors, and his face
+was too pretty to be
+of this world."
 "フィリップス城の右側の
 入口は、魔物が封印して
-しまったって噂だよ。","It's rumored that a monster
-got sealed up in the passage
-to the right of Philips Castle.",
+しまったって噂だよ。","It's rumored that a
+monster got sealed up
+in the passage to the
+right of Philips Castle."
 "フィリップス城の向こうには
 ドワーフの町につながる
 砂漠があるんだぜ。","On the far side of Philips
 Castle, there's a desert that
-leads to the dwarf town.",
+leads to the dwarf town."
 "［御主か。マティアスの
 見つけてきたとか言う
 勇者とやらは。
@@ -80,21 +82,21 @@ leads to the dwarf town.",
 なろうとは。
 この様な運命に導いた
 マティアスを
-恨むがよい。］＠","[You... are you the
-hero Mathias is
-supposed to have
-discovered?
+恨むがよい。］＠","[Are you the hero
+Mathias is supposed
+to have discovered?
 Hero or not, without
-the call of the Demon
-Blade, you've not gone
-beyond children's
-tantrums.\
+the call of the
+magic[blade, you'd
+be no more than an
+unruly child.\
 Pitiable, then, that
 you shall soon lose
 your life.
-You should curse
+[You should curse
 Mathias, who led
-you to such a fate.]@",
+you to such a fate.]@
+"
 "ナセル。
 再開を喜びたいが、
 そんな暇はない。
@@ -110,17 +112,19 @@ you to such a fate.]@",
 急がなくては・・・。","Nassel. I would
 celebrate our
 reunion, but we have
-no such time. Already
-the crisis is upon us.
+no such time.
+Already the crisis
+is upon us.
 Preparations to
 summon the dark god
-appear to be underway.\
+appear to be
+underway.\
 ^I sense an evil
-presence._ It is only
-a matter of time until
-this town too is
-affected.
-Unless we hurry...",
+presence._ It is
+only a matter of
+time until this town
+too is affected.
+Unless we hurry..."
 "何にする？
 買うの？
 どうもありがとう。
@@ -129,53 +133,80 @@ Unless we hurry...",
 This one?
 Thank you very much.
 Don't you have one?
-You can't afford it.",
+You can't afford it."
 "ごめんよ。
 君が欲しがって
 いるような物は、
 何も無いんだよ。
 この間、賊に入られて
 全部取られてしまった
-んだ。",Text 12,
+んだ。","I'm sorry; I don't
+have anything you
+would want. Thieves
+came recently, and
+everything was
+taken."
 "フィリップス城で、
 何が起こっているの
 だろうか・・・。
 お城に行った者も
 誰も帰って来ない。齔
 一体、あの城に
-何があったのだ。",Text 13,
+何があったのだ。","What is going on at
+Philips Castle? No
+one who has gone
+there comes back.
+What in the world
+happened to them
+there?"
 "フェリシア王女って
-可愛いよなあ",Text 14,
+可愛いよなあ",Princess Ferisia is cute!
 "ここのとこおかしな事が
-多いわねえ。",Text 15,
+多いわねえ。","So many strange
+things around here..."
 "最近は、マーク王子の
-お姿を見ないわねえ。",Text 16,
+お姿を見ないわねえ。","We haven't seen
+Prince Mark recently."
 "レイクリーランドの王家には
 代々、ラグーン城を天空に
 浮かせる力があったらしい。齔
 それは元々、地上の災厄から
-逃れる為の物だったのだ。",Text 17,
+逃れる為の物だったのだ。","Lake Leland's royal family
+is said to have inherited
+the power to raise Lagoon
+Castle into the sky.\
+Its original purpose
+was to escape disasters
+on the ground."
 "王様、お妃様、フェリシア
 王女はラグーン城で、幸せに
-暮らしておられる。",Text 18,
+暮らしておられる。","The King, Queen, and
+Princess Ferisia live
+happily in Lagoon Castle."
 "水晶があると、すっごい
 魔法が使えるんだよ。齔
 でも、それには杖も必要
 なんだ。水晶と二つで
-一つさ。",Text 19,
+一つさ。","If you have a crystal, you
+can use awesome magic!\
+But in addition, you'll
+need a staff. The staff and
+the crystal work together!"
 "みんな無事で良かった。
-これでゆっくり眠れるな。",Text 20,
+これでゆっくり眠れるな。","I'm glad that everyone
+came home safe. I'll
+sleep peacefully now!"
 "今、フィリップス城には
 恐ろしい化物が棲んでいる
 って話だぜ。齔
 みんな、そいつにやられ
-たんじゃないといいけど。",Text 21,
+たんじゃないといいけど。",Text 21
 "魔物を倒せば、封印は
-解かれるんじゃないか？",Text 22,
+解かれるんじゃないか？",Text 22
 "ドワーフの町には
 いい防具が売ってたな。齔
 欲しいのなら、金を
-貯めておいた方がいいぞ。",Text 23,
+貯めておいた方がいいぞ。",Text 23
 "ゼラーに会ったか。
 奴が何を考えているか
 私には分かる。
@@ -189,7 +220,21 @@ You can't afford it.",
 と、その聖域を動かす
 力が備わっている。齔
 ゼラーは、その力が
-欲しいのに違いない。",Text 24,
+欲しいのに違いない。","You met Zerah?
+I know his thoughts.
+He is planning to
+claim the sanctuary
+of Lagoon Castle.\
+He seems to have
+targeted Princess
+Ferisia for that
+reason. As you know,
+she holds the power
+to move the castle
+and its sanctuary.
+Unquestionably,
+Zerah desires that
+power."
 "おお。皆は無事か。
 すまぬ人間の若者よ。
 これが転移のマント
@@ -202,10 +247,9 @@ You can't afford it.",
 あれば誰でも火の魔法
 が使える。齔
 ＠＋ただし、紅炎の水晶が
-必要だがな。＠",Text 25,
+必要だがな。＠",Text 25
 "早く持って行って
 あげなさい。
-待ってるじゃろうて。",Text 26,
+待ってるじゃろうて。",Text 26
 "ありがとう。
-感謝しているぞ。",Text 27,
-,,
+感謝しているぞ。",Text 27
