@@ -2,7 +2,7 @@
 フィリップス城に来てたそう
 だぜ。","Looks like Princess
 Ferisia of Lagoon Castle
-has come to Philips Castle."
+has come to Philips Castle.",
 "最近フィリップス城の
 様子がおかしいのよ。齔
 それで何人かお城に調べに
@@ -11,14 +11,14 @@ has come to Philips Castle."
 Philips Castle lately.\
 Some people went to
 investigate, but none of
-them came back. I'm worried..."
+them came back. I'm worried...",
 "昨日、この町に変な奴が
 来たの。齔
 とても恐ろしい気配を
 感じたわ。","A strange person came
 to this town yesterday.\
 Something about him felt
-terribly frightening..."
+terribly frightening...",
 "このレイクリーランドには
 ３つの城がある。齔
 王の居られるラグーン城、
@@ -38,18 +38,18 @@ and Siegfrid Castle, where
 Prince Siegfrid lives.\
 Princess Ferisia resides 
 together with the King and
-Queen at Lagoon Castle."
+Queen at Lagoon Castle.",
 "お兄ちゃん、魔法使い？
 それじゃあ水晶って
 見たことある？","Are you a wizard,
 mister? Then have you
-seen a ""crystal""?"
+seen a ""crystal""?",
 "フィリップス城に行った
 連中は、どうしたのだろう？
 心配で夜も眠れぬ。","What could have become
 of those people who went
 to Philips Castle? I can't
-sleep at night with worry."
+sleep at night with worry.",
 "昨日、この町に変な奴が
 来たんだ。齔
 左右の目の色が違ってな、
@@ -59,18 +59,18 @@ to this town yesterday.\
 His eyes were different
 colors, and his face
 was too pretty to be
-of this world."
+of this world.",
 "フィリップス城の右側の
 入口は、魔物が封印して
 しまったって噂だよ。","It's rumored that a
 monster got sealed up
 in the passage to the
-right of Philips Castle."
+right of Philips Castle.",
 "フィリップス城の向こうには
 ドワーフの町につながる
 砂漠があるんだぜ。","On the far side of Philips
 Castle, there's a desert that
-leads to the dwarf town."
+leads to the dwarf town.",
 "［御主か。マティアスの
 見つけてきたとか言う
 勇者とやらは。
@@ -96,7 +96,7 @@ your life.
 [You should curse
 Mathias, who led
 you to such a fate.]@
-"
+",*** NEEDS REVISITED ***
 "ナセル。
 再開を喜びたいが、
 そんな暇はない。
@@ -124,7 +124,7 @@ presence._ It is
 only a matter of
 time until this town
 too is affected.
-Unless we hurry..."
+Unless we hurry...",*** NEEDS REVISITED ***
 "何にする？
 買うの？
 どうもありがとう。
@@ -133,7 +133,7 @@ Unless we hurry..."
 This one?
 Thank you very much.
 Don't you have one?
-You can't afford it."
+You can't afford it.",
 "ごめんよ。
 君が欲しがって
 いるような物は、
@@ -145,7 +145,7 @@ have anything you
 would want. Thieves
 came recently, and
 everything was
-taken."
+taken.",
 "フィリップス城で、
 何が起こっているの
 だろうか・・・。
@@ -158,15 +158,15 @@ one who has gone
 there comes back.
 What in the world
 happened to them
-there?"
+there?",
 "フェリシア王女って
-可愛いよなあ",Princess Ferisia is cute!
+可愛いよなあ",Princess Ferisia is cute!,
 "ここのとこおかしな事が
 多いわねえ。","So many strange
-things around here..."
+things around here...",
 "最近は、マーク王子の
 お姿を見ないわねえ。","We haven't seen
-Prince Mark recently."
+Prince Mark recently.",
 "レイクリーランドの王家には
 代々、ラグーン城を天空に
 浮かせる力があったらしい。齔
@@ -177,12 +177,12 @@ the power to raise Lagoon
 Castle into the sky.\
 Its original purpose
 was to escape disasters
-on the ground."
+on the ground.",
 "王様、お妃様、フェリシア
 王女はラグーン城で、幸せに
 暮らしておられる。","The King, Queen, and
 Princess Ferisia live
-happily in Lagoon Castle."
+happily in Lagoon Castle.",
 "水晶があると、すっごい
 魔法が使えるんだよ。齔
 でも、それには杖も必要
@@ -191,22 +191,30 @@ happily in Lagoon Castle."
 can use awesome magic!\
 But in addition, you'll
 need a staff. The staff and
-the crystal work together!"
+the crystal work together!",
 "みんな無事で良かった。
 これでゆっくり眠れるな。","I'm glad that everyone
 came home safe. I'll
-sleep peacefully now!"
+sleep peacefully now!",
 "今、フィリップス城には
 恐ろしい化物が棲んでいる
 って話だぜ。齔
 みんな、そいつにやられ
-たんじゃないといいけど。",Text 21
+たんじゃないといいけど。","Now there are stories
+about terrible monsters
+ living in Philips Castle.\
+I just hope no one
+was hurt by them.",
 "魔物を倒せば、封印は
-解かれるんじゃないか？",Text 22
+解かれるんじゃないか？","If you defeat the monsters,
+won't the seal be broken?",
 "ドワーフの町には
 いい防具が売ってたな。齔
 欲しいのなら、金を
-貯めておいた方がいいぞ。",Text 23
+貯めておいた方がいいぞ。","The dwarf town
+sells good armor!\
+You should save your
+money if you want any.",
 "ゼラーに会ったか。
 奴が何を考えているか
 私には分かる。
@@ -234,7 +242,7 @@ to move the castle
 and its sanctuary.
 Unquestionably,
 Zerah desires that
-power."
+power.",
 "おお。皆は無事か。
 すまぬ人間の若者よ。
 これが転移のマント
@@ -247,9 +255,26 @@ power."
 あれば誰でも火の魔法
 が使える。齔
 ＠＋ただし、紅炎の水晶が
-必要だがな。＠",Text 25
+必要だがな。＠","Oh! Are they safe?
+Thank you, young
+human!
+This is the Cloak of
+Mobility. I entrust
+it to you.\
+Also, I'll give you
+this staff in
+thanks.\
+With this, anyone
+with magical ability
+can use fire magic.\
+@^However, you'll
+also need a
+Redflame Crystal.@",*** NEEDS REVISITED ***
 "早く持って行って
 あげなさい。
-待ってるじゃろうて。",Text 26
+待ってるじゃろうて。","Please take it and
+hurry. They'll be
+waiting!",
 "ありがとう。
-感謝しているぞ。",Text 27
+感謝しているぞ。","Thank you. You have
+our gratitude.",
