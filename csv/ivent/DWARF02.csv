@@ -7,7 +7,7 @@ your name Nassel?\
 Not long ago, a tall blond
 person said that if a child
 named Nassel came, I should
-hand him... this."
+hand him... this.",
 "君、ここに来る途中で
 金髪で背の高い男に
 会わなかったかい？齔
@@ -17,13 +17,13 @@ into a tall blond man
 on your way here?\
 Who the heck is that
 guy with those
-funny-colored eyes?"
+funny-colored eyes?",
 "溶岩の谷の近くで
 フェリシア王女によく似た
 人影を見かけたんだ・・・。","I saw the silhouette of
 someone who looked a
 lot like Princess Ferisia
-near the lava valley..."
+near the lava valley...",
 "おお。君がナセル君か。
 君の父上から、話は
 聞いている。齔
@@ -37,7 +37,7 @@ near the lava valley..."
 ナセル君、この衝波の杖を
 あげよう。齔
 これで、衝波の水晶が
-あれば地の魔法が使える。",Text 3
+あれば地の魔法が使える。",Text 3,
 "君、ロイの息子さん？齔
 お父さん、捜してた物が
 見つかりそうだって
@@ -45,50 +45,69 @@ near the lava valley..."
 Your father said he
 seemed to have found what
 he was looking for and
-went to the valley."
+went to the valley.",
 "ああ、疲れた。
 仕事もほどほどに
 しとかないとな。
 体、こわしちゃうぜ。","Ahh, I'm worn out!
 Even work in moderation,
 they say! Or else you'll
-ruin your body!"
+ruin your body!",
 "この間、ムーンストーンを
 捜しに来たって人がいたよ。
 あんたと同じ人間だ。","The other day, someone
 said he came on a quest
 for the Moonstone. He was
-a human just like you!"
+a human just like you!",
 "ここはドワーフの町だ。
 細工物をお捜しかい？齔
 ドワーフの細工は
-天下一品だよ。",Text 7
+天下一品だよ。","This is a dwarf town!
+Looking for crafted goods?\
+Dwarven handiwork is
+the best in the world!",
 "昔あった火山の噴火で
 洞窟への道が溶岩に
 塞がれちゃったんだ。齔
-冷気の壷があればなぁ・・・。",Text 8
+冷気の壷があればなぁ・・・。","A long time ago, the
+way into the cave got
+blocked by lava from
+a volcanic eruption.\
+If you had a
+Chillwind Vase...",
 "早くムーンストーンを
-頼むよ。",Text 9
-あの金髪の人は誰だったの？,Text 10
+頼むよ。","I rely on you to find
+the Moonstone soon!",
+あの金髪の人は誰だったの？,Who was that blond person?,
 "フェリシア王女じゃなかったの
-かなぁ。うーむ。",Text 11
+かなぁ。うーむ。","Could that have been
+Princess Ferisia? Hmm...",
 "あなたって・・・。あ、いえ、
-なんでもありません。",Text 12
+なんでもありません。","Are you...? No, never mind.",
 "仕事もほどほどに
 しとかないとな。
 体、こわしちゃうぜ。
-ほら、もうこんなに。",Text 13
-親孝行しなくちゃな。,Text 14
+ほら、もうこんなに。","Even work in moderation,
+they say! Or else you'll ruin
+your body! Like this, hey!",
+親孝行しなくちゃな。,Aren't you a dutiful child!,*** NEEDS REVISITING ***
 "ルディアンの細工物なんかは
 凄いぞ。・・・なんじゃ買って
 いかんのか？。齔
-お勧めなんじゃがのう。",Text 15
-ねむいよー。シクシク,Text 16
+お勧めなんじゃがのう。","Rudian's handiwork is
+amazing! ...What, you want
+to know how to buy it?\
+You'll need a referral!",*** NEEDS REVISITING ***
+ねむいよー。シクシク,"I'm sleepy, boo hoo!",*** NEEDS REVISITING ***
 "何にするね？
 買っておゆき。
 あんた得したね。
 あんた持ってるよ。
-出直しといで。",Text 17
+出直しといで。","How can I help ya?
+You buyin' this?
+Sold!
+You've got one!
+Come back later!",*** NEEDS REVISITING ***
 "どぅわははははっ
 俺がじいちゃんから
 聞いた話によるとな、
@@ -97,8 +116,8 @@ a human just like you!"
 勇者が来るのを待って
 いるんだとよ。
 信じるかい？
-どぅわっはっげほっ！",Text 18
-ちゃんと渡したわよ。,Text 19
+どぅわっはっげほっ！",Text 18,
+ちゃんと渡したわよ。,I handed it over right!,*** NEEDS REVISITING ***
 "おお。君がナセル君か。
 君の父上から、話は
 聞いている。齔
@@ -109,7 +128,7 @@ a human just like you!"
 ナセル君、この衝波の杖を
 あげよう。齔
 これで、衝波の水晶が
-あれば地の魔法が使える。",Text 20
+あれば地の魔法が使える。",Text 20,
 "おお。君がナセル君か。
 君の父上から、話は
 聞いている。齔
@@ -118,18 +137,18 @@ a human just like you!"
 ナセル君、この衝波の杖を
 あげよう。齔
 これで、衝波の水晶が
-あれば地の魔法が使える。",Text 21
-気を付けてな。,Text 22
-ムーンストーンって何？,Text 23
+あれば地の魔法が使える。",Text 21,
+気を付けてな。,Text 22,
+ムーンストーンって何？,Text 23,
 "へぇー、あんたのお父さん
-だったのかい。",Text 24
+だったのかい。",Text 24,
 "あっ！その壷だよっ
 それで溶岩を凍らせる
-ことができるよ。",Text 25
+ことができるよ。",Text 25,
 "俺は剣を作る為に
 家に戻る。齔
 必ずや、見事な剣を
-作ってみせるよ。",Text 26
+作ってみせるよ。",Text 26,
 "おお、それはムーンストーン！
 ナセル、やったな。齔
 これで、夢にまで見た
@@ -146,8 +165,8 @@ a human just like you!"
 てくれ。齔
 かわりといってはなんだが
 この壷をやろう。齔
-きっと役に立つはずだ。",Text 27
+きっと役に立つはずだ。",Text 27,
 "父上はムーンブレイドを
 作ると言って、帰って
-行ったぞ。",Text 28
-無事でなによりじゃ。,Text 29
+行ったぞ。",Text 28,
+無事でなによりじゃ。,Text 29,
