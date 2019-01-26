@@ -37,7 +37,22 @@ near the lava valley...",
 ナセル君、この衝波の杖を
 あげよう。齔
 これで、衝波の水晶が
-あれば地の魔法が使える。",Text 3,
+あれば地の魔法が使える。","Oh, are you Nassel?
+I've heard stories
+from your father.\
+Your father has gone to
+the valley of lava now.
+He said he had discovered
+the legendary Moonstone.\
+You should follow
+him right away!\
+...?!\
+Oh, I'm forgetting
+something! Let me give
+you this Wavecrash Staff!\
+You'll be able to use
+earth magic with this, if
+you have a Wavecrash Crystal.",
 "君、ロイの息子さん？齔
 お父さん、捜してた物が
 見つかりそうだって
@@ -116,7 +131,14 @@ Come back later!",*** NEEDS REVISITING ***
 勇者が来るのを待って
 いるんだとよ。
 信じるかい？
-どぅわっはっげほっ！",Text 18,
+どぅわっはっげほっ！","D'wahahaha!
+According to Gramps'
+stories, there's an
+amazing sword in the
+lava cave, waiting
+for a hero to come!
+Can you believe it?
+Dwahaha-agh!",
 ちゃんと渡したわよ。,I handed it over right!,*** NEEDS REVISITING ***
 "おお。君がナセル君か。
 君の父上から、話は
@@ -128,7 +150,18 @@ Come back later!",*** NEEDS REVISITING ***
 ナセル君、この衝波の杖を
 あげよう。齔
 これで、衝波の水晶が
-あれば地の魔法が使える。",Text 20,
+あれば地の魔法が使える。","Oh, are you Nassel?
+I've heard stories
+from your father.\
+Your father said he
+would make the Moonblade
+and went home.\
+Oh, I'm forgetting
+something! Let me give
+you this Wavecrash Staff!\
+You'll be able to use
+earth magic with this, if
+you have a Wavecrash Crystal.",
 "おお。君がナセル君か。
 君の父上から、話は
 聞いている。齔
@@ -137,18 +170,35 @@ Come back later!",*** NEEDS REVISITING ***
 ナセル君、この衝波の杖を
 あげよう。齔
 これで、衝波の水晶が
-あれば地の魔法が使える。",Text 21,
-気を付けてな。,Text 22,
-ムーンストーンって何？,Text 23,
+あれば地の魔法が使える。","Oh, are you Nassel?
+I've heard stories
+from your father.\
+Most importantly,
+we're all safe.\
+Oh, I'm forgetting
+something! Let me give
+you this Wavecrash Staff!\
+You'll be able to use
+earth magic with this, if
+you have a Wavecrash Crystal.",
+気を付けてな。,Be careful!,
+ムーンストーンって何？,"What's a ""moonstone""?",
 "へぇー、あんたのお父さん
-だったのかい。",Text 24,
+だったのかい。",Hey--was that your father?,
 "あっ！その壷だよっ
 それで溶岩を凍らせる
-ことができるよ。",Text 25,
+ことができるよ。","Ah! That vase!
+You'll be able to
+freeze the lava 
+with that.",
 "俺は剣を作る為に
 家に戻る。齔
 必ずや、見事な剣を
-作ってみせるよ。",Text 26,
+作ってみせるよ。","I'll return now to
+make the blade. I'll
+show you how
+magnificently I
+make it!",
 "おお、それはムーンストーン！
 ナセル、やったな。齔
 これで、夢にまで見た
@@ -168,5 +218,9 @@ Come back later!",*** NEEDS REVISITING ***
 きっと役に立つはずだ。",Text 27,
 "父上はムーンブレイドを
 作ると言って、帰って
-行ったぞ。",Text 28,
-無事でなによりじゃ。,Text 29,
+行ったぞ。","Your father said he
+would make the Moonblade
+and went home.",
+無事でなによりじゃ。,"Most importantly,
+we're all safe.",
+,,
