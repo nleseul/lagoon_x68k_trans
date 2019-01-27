@@ -1,5 +1,6 @@
 "逃げて下さい！
-この人は恐ろしい人・・・。",Text 0
+この人は恐ろしい人・・・。","Please, run!
+He's horrible..."
 "齠愚か者め。
 忠告が聞こえなかった
 とみえる。齔
@@ -8,5 +9,14 @@
 つけて来ることだ。齔
 齠お前が、本当の勇者なら
 ラグーン城で会うことに
-なろう。",Text 1
-齦ボスを倒した,Text 2
+なろう。","ËFool!
+It seems you didn't
+heed my warning.\
+ËIf you're saying you'll
+defy me to the end,
+you'll need to gain
+far more power.\
+ËIf you are really a
+hero, then we shall
+meet at Lagoon Castle."
+齦ボスを倒した,ÌBoss defeated!
