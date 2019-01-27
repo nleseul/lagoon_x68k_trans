@@ -188,12 +188,25 @@ def create_lagoon_x_patch(orig_data):
     # Text in the executable!
 
     # Instruction to insert the user disk.
+    # Note that this apparently needs to be padded to 30 characters for some reason.
+    # Original text:
+    #   ユーザーディスクがある場合は、
+    #   システムディスクと交換して下さ
+    #   い。無い場合は、そのままシステ
+    #   ムディスクをセットして下さい。
     patch.add_record(0x4fdc, text_util.encode_english('If you have a user disk,      \n'
                                                       'please exchange it for the    \n'
                                                       'system disk. Otherwise, leave \n'
                                                       'the system disk in place.     ', 128))
 
     # Text when using the mayor's letter.
+    # Original text:
+    #    ・・・が、・・・で
+    #    ・・だったのだが、
+    #    ・・として、・・・
+    #    という訳じゃ。
+    #    ・・難しい漢字ばかりで
+    #    ナセルには読めなかった
     patch.add_record(0x5a1a, text_util.encode_english('...the... and...\n'
                                                       '...but it...\n'
                                                       '...so we...\n'
@@ -201,6 +214,20 @@ def create_lagoon_x_patch(orig_data):
                                                       'It\'s nothing but\n'
                                                       'difficult words, and\n'
                                                       'Nassel can\'t read it.', 123))
+
+    # Text when using Thor's letter.
+    # Original text:
+    #   我々の成そうとする事に
+    #   手出しをするな。齔
+    #   もはやお前の力では
+    #   どうする事もできぬ。齔
+    #   大人しくしているのが
+    #   己のためと言うものだ。
+    patch.add_record(0x5a97, text_util.encode_english('Do not interfere\n'
+                                                      'in our endeavors.\\\n'
+                                                      'You can do no more with\n'
+                                                      'what power you have.\\\n'
+                                                      'You will obey me!', 132))
 
     # Game over!
     patch.add_record(0x4fc7, text_util.encode_english('Game Over', 20))
@@ -237,6 +264,19 @@ def create_lagoon_x_patch(orig_data):
         patch.add_record(0x6cc1, item_start_offset_bytes)
         patch.add_record(0x80cd, item_start_offset_bytes)
         patch.add_record(0x981d, item_start_offset_bytes)
+
+    # Cut scene text table
+    with open('csv/cut_scene_text.csv', 'r', encoding='utf8') as in_file:
+        reader = csv.reader(in_file, lineterminator='\n')
+        string_data, string_offsets = encode_string_table([row[1] for row in reader])
+        string_data = string_data.ljust(0x400, b'\x00')
+        add_record_checked(patch, 0x18ce9, string_data, 0x400)
+
+        # There are mini-scripts that control the cut scenes embedded in the executable. They store direct
+        # pointers to the start of each of these strings. Remap those.
+        for index, offset in enumerate([0x1815d, 0x18175, 0x1817f, 0x181a7, 0x1845f, 0x18469]):
+            patch.add_record(offset, (0x18ce9 + string_offsets[index] - 0x40).to_bytes(3, byteorder='big'))
+
 
     # The arrow graphic used in the shop is stored in the executable for some reason? It's stored as a
     # full-width character, but it should only be half-width.
@@ -344,6 +384,12 @@ if __name__ == '__main__':
                 f.seek(0x194d8)
                 for index, line in enumerate(read_string_table(f)):
                     writer.writerow([line, 'Misc{0:02}'.format(index)])
+
+            with open('csv/cut_scene_text.csv', 'w+', encoding='utf8') as str_file:
+                writer = csv.writer(str_file, lineterminator='\n')
+                f.seek(0x18ce9)
+                for index, line in enumerate(read_string_table(f)):
+                    writer.writerow([line, 'CutScene{0:02}'.format(index)])
 
         lagoon_x_out_data = create_lagoon_x_patch(lagoon_x_in_data).apply(lagoon_x_in_data)
 
