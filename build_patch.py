@@ -229,6 +229,82 @@ def create_lagoon_x_patch(orig_data):
                                                       'what power you have.\\\n'
                                                       'You will obey me!', 132))
 
+    # Request a data disk. Filled in at runtime with the disk number. Seems to need
+    # padding to 30 characters?
+    # Original text:
+    #   ドライブ１にデータディスク　を
+    #   セットして下さい　　　　　　　
+    patch.add_record(0x7190, text_util.encode_english('Please insert data disk   into\n'
+                                                      'drive 1.                      ', 63))
+
+    # Digit strings used for the data disk number.
+    patch.add_record(0xc27b, text_util.encode_english('1', 3))
+    patch.add_record(0xc27f, text_util.encode_english('2', 3))
+    patch.add_record(0xc283, text_util.encode_english('3', 3))
+
+    # Offset in the first line to the blank where the digit goes.
+    patch.add_record(0x6a49, b'\18')
+
+    # Request the user disk. Seems to need padding to 30 characters?
+    # Original text:
+    #   ドライブ０にユーザーディスクを
+    #   セットして下さい　　　　　　　
+    patch.add_record(0x71d1, text_util.encode_english('Please insert the user disk   \n'
+                                                      'into drive 1.                 ', 63))
+
+
+    # User disk creation messages. Note spacing to maintain
+    # original memory location of each line.
+    # Original text:
+    #   　ユーザーディスク作成　
+    #   　
+    #   新しいディスクをドライブ
+    #   １にセットして、パスワー
+    #   ドを入力してください。
+    #   　で作業を中止します。
+    #   パスワード
+    #   処理中
+    #   しばらくお待ち下さい
+    #   終了しました
+    #   ユーザーディスクをドライ
+    #   ブ０に、データディスク　
+    #   をドライブ１にセットして
+    #   下さい。
+    #   システムディスクをドライ
+    #   ブ０にセットして下さい。
+    #   記録されたデータはありません
+    patch.add_record(0xc085, text_util.encode_english('   User disk creation   \n'
+                                                      '  \n'
+                                                      'Please insert a blank   \n'
+                                                      'disk into drive 1, and  \n'
+                                                      'enter the password.   \n'
+                                                      '   to cancel.         \n'
+                                                      'Password: \n'
+                                                      'Making\n'
+                                                      'Please wait a while.\n'
+                                                      ' Finished!  \n'
+                                                      'Please insert the user  \n'
+                                                      'disk into drive 0, and  \n'
+                                                      'the data disk into      \n'
+                                                      'drive 1.\n'
+                                                      'Please insert the system\n'
+                                                      'disk into drive 0.      \n'
+                                                      ' There is no recorded data. \n', 355))
+
+    # Not sure when this is used, but something about write protection
+    # on the user disk. Note spacing to maintain locations.
+    # It does show up if you turn on write protection on the new
+    # disk before entering a password on the user disk creation screen,
+    # but it freezes in the middle of displaying it. That freeze
+    # seems to have been present in the original game.
+    # Original text:
+    #   おまえいい加減にしろよ！
+    #   ユーザーディスクがプロテクト
+    #   状態になっています。　　　　
+    patch.add_record(0xc1ea, text_util.encode_english('Hey, stop that!         \n'
+                                                      'The user disk is in a       \n'
+                                                      'protected state.            \n', 85))
+
     # Game over!
     patch.add_record(0x4fc7, text_util.encode_english('Game Over', 20))
 
