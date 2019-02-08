@@ -1,0 +1,425 @@
+(This is a pretty rough translation... don't take the details too seriously. Also only doing the parts necessary for understanding the backstory; does not include the "how to play" pages.)
+
+Map page
+--------
+
+これが冒険の舞台だ！
+この世界を救うことができるのは
+ナセル、君だけだ！
+This is the setting of the adventure! Saving this world is possibly only for you, Nassel!
+
+Story
+-----
+
+序章
+Prologue
+
+百億の星の流れは　闇を求め
+またさらなる星の流れは　光を求め
+神々の落とした涙　月の光を生み
+その光をもって　 闇を照らすであろう
+A flow of billions of stars... calling to the dark...
+A flow of yet more stars... calling to the light...
+Tears shed by the gods... the birth of moonlight...
+With this light... let the dark be illumined...
+
+　　　　　　　　　　　この伝説を語れるのは、
+限られた者だけになってしまったというが ……。
+Though it is said that this legend can only be told by few...
+
+　去りし日、過去歷300年初日。レイクリーランドの地には、 闇 がはびこ
+り始めていた。この地に平静を取り戻すべく、辺境から7人の魔導士が
+集結した。後らは太古の秘術を用い、神を召喚した――はずだった。が、
+そこには凄惨な鬼気とともに、邪神が上体をもたげていた。
+　空気の流れが乱れ、魔導士達の体を怒涛が襲った。闇より深い闇が、
+そこには存在していた。邪神と魔導士達の闘いは凄絶を極め、邪神の強
+大な力の前に屈するかとおもわれた。
+が、仲間を犠牲にするという禁断の呪法により、かろうじて封印するこ
+とができた。そのため、7人のうち3人が呪文の犠牲になり、残ったのは、
+マティアス、ゼラー、デュマ、バトラーの4人だけであった。重々しい恐
+怖がしばらくの 間、彼らの体を縛りつけていた。安堵感が意識を覚醒さ
+れたのは、鳥のざわめく声が聞こえた時であった。だが、安らいだ表情
+の中に、どす黒い欲望の影を落としていた者がいたことを他の者は見て
+とっただろうか――。
+In an age long ago, it was the first day of the 300th year. In the land of Lake Leland, darkness was beginning to spread. To restore peace to this land, seven mages gathered from its frontiers. Using ancient arts, they summoned forth God—or so they intended. But along with a gruesome dread, a demon raised its torso.
+A tempest swept about them, and the mages' bodies were assailed by its rage. A darkness deeper than dark came into being there. The struggle between the mages and the demon was violent to the extreme, and it seemed that they would yield to the demon's mighty power.
+However, using a forbidden ritual said to use one's allies as sacrifices, they were barely able to seal it. For this purpose, three of the seven were made sacrifices for the ritual, and only the four who remained—Mathias, Zerah, Duma, and Battler—joined together. For a brief, dreadful moment, their bodies were restrained. But a feeling of relief brought them back to consciousness, as they heard the voices of birds astir. However, within those relaxed expressions, did the others realize that there was one who cast a shadow of dark desire...?
+  
+　　　　　　　　　　　　　その男――ゼラーは、
+邪神の圧倒的な力に魅せられ、その力を手中に納め
+ようとしていた。しかし自分だけでは、あれ程の力
+を操ることができないと踏んだゼラーは、太古の文
+献にある<闇の皇子>を搜し出すことにした。
+That man—Zerah—was fascinated by the demon's overwhelming power, and sought to make that power his own. However, concluding that he could not control that degree of power alone, Zerah chose to seek the <Dark Scion> from ancient documents.
+
+　　　　　　　　　　　　　　　　　　<闇の皇子>は神々の戦いが終わって
+から数百億年後に、闇の神々の生れ変りとしてこの世に現れ、その姿は普通の
+人間に似てその肌の色は不気味な程白く、金髮をたなびかせ、この世ならぬ美
+しい姿をしているという。ただひとつ違うのは、瞳の色が左右違う邪眼であり、
+見る者を恐れさせるということだけだろうか。
+They said that billions of years after the end of the battles of the gods, the <Dark Scion> would appear in this world as a reincarnation of the dark gods, in a form similar to a normal human, with uncannily pale skin, trailing golden hair, and beautiful like nothing of this world. But the one difference was that it would have evil eyes whose colors were mismatched, and it might be feared by all who saw it.
+
+　　　　　　　　　　　ゼラーが <闇の皇子>
+を捜し出す旅に出てから300年の月日が流れて
+いた。レイクリーンランドの北方に浮かぶ小さ
+な名もない島に、一人の赤ん坊が生まれた。灰
+色の右目、赤色の左目をもつその子は「ソア」と
+名付けられた。彼は、この世に生を受けたその
+瞬間から、全ての者に忌み嫌われていた。
+300 years have passed since Zerah began his journey in search of the <Dark Scion>. On a small nameless island that lay in the north of Lake Leland, a baby was born. This child, who had a gray right eye and a red left eye, was given the name "Thor." And from the moment his life in this world began, he was loathed by all people.
+
+　　　　　　　　　　　　　　まだ産み月に満たないうち
+に、母親の腹を破って生まれ、その上産声のひとつもあげ
+なかった。
+そしてはにより皆を恐れさせたのは、彼の瞳の色である。
+それは伝説にもある、邪眼と呼ばれるものであった。
+　ソアの誕生以来、家畜が病気にかかったり、作物のでき
+が悪いと、全て彼の邪眼のせいだということにされた。そ
+んな不幸な境遇と引き換えのように、彼には不思議な力が
+与えられていた。２歳になる頃には言葉を完全に話すこと
+ができたし、明日起こる出来事を何もかも予言してみせた
+りもした。だが、そのような力も周りの人間を恐れさせる
+だけであった。しかし、ただひとりそんなソアを哀れに思
+い、彼を引きとり育ててくれた老婆がいた。エルワーとい
+う名のその老婆は、５歳になったソアを呼びこう言った。
+He tore his way from his mother's stomach when the month of his birth had barely begun, and moreover, he cried not at all. 
+And what made everyone afraid was the color of his eyes. They were called evil eyes, as in the legend. 
+After Thor's birth, livestock were sickened and crops were poor, and his evil eyes were said to be the reason. Despite such tragic circumstances, he was given mysterious powers. Around his second birthday, he was able to speak perfectly, and he was also able to predict whatever would happen on the next day. But such powers only led to more fear from the humans around him. Nonetheless, there was one old woman who felt pity for this Thor and took over his upbringing. This old woman, named Elwah, called thus to Thor when he reached his fifth year:
+
+『ソアや、よくお聞き。確かにおまえは、他の子と少し違
+うかもしれない。あたしはみんなが言うように、おまえを
+厄介者だなんて思っちゃいたい。本当はやさしい子だよの
+ね。だがらあたしはおまえにみんなと仲良くやっていって
+ほしいんだ。』
+『でも、ばあちゃん。みんなが僕をいじめるんだ。』
+『それはよく解っているよ。でもね、おまえは賢い子だか
+ら言うが、あたしはもう長くはない。あたしが死んだらお
+まえどうやって 生きていくんだい？』
+『ばあちゃんが病気なのはわかってたよ。でも僕一人なん
+て絶対にいやだ。』
+『情けないことを言うんじゃない。男の子だろう。』
+"Thor, listen to me. Certainly, you may be a bit different from other children. But I'm ending up wanting to think you're a nuisance or something, like everyone says. I know you're really a gentle child. However, I'd like you to live more nicely with everyone."
+"But Nan, everyone is mean to me!"
+"I'm well aware of that. Still, although they also say you're a clever child, I'm not long for this world. How are you going to live when I die?"
+"I've known you're sick, Nan. But someone like me alone is totally bad."
+"Don't say miserable things. You're supposed to be a big boy."
+
+　それから三日後、エルワーは息をひきとった。その時ソ
+アは一筋の涙もこぼさなかった。エルワーの葬儀が終わっ
+た頃、ローブをまとった老人がソアの前に現れた。
+『搜しましたぞ。闇の皇子よ。さあ、私と一緒に来て頂き
+ましょう。』
+『誰だ？おまえは。』
+『御身にお仕えする、ゼラーと申します。』
+　それから13年、ソアはゼラーの元で厳しい修行に酎えた耐えた。
+どんなものにも負けない、強い力を手に入れるために。
+Three days later, Elwah breathed her last, and Thor shed not a tear on the occasion. Near the end of Elwah's funeral, a robed old man appeared before Thor.
+"You're the one I sought, the Dark Scion. Now, please accompany me."
+"Who are you?"
+"I am your humble servant, known as Zerah."
+For the next thirteen years, Thor endured rigorous training with Zerah, so that he would gain strength which would be defeated by no one.
+
+　　　　　　　　　　　　――方、ソアの誕生から
+約１年後、アトランドの刀鍛冶の家では<ムーンブレ
+イドの勇者>となるべき右肩に三日月のあざのある
+男の子が生まれた。両親はその子をナセルと名付け
+た。
+ナセルは活発で、心優しい少年に育った。幼い頃か
+ら、父親の作った剣で武道に親しみ、すでに非凡な
+才能を見せていた。
+　ある日、ナセルの家に１人の修行僧が訪れた。そ
+の修行僧は、名をマティアスと名乗った。彼は、ム
+ーンブレイドの勇者がナセルに相違ないこと、ムー
+ンブレイドを作るのは、父親のロイであろうことを
+話した。そしてこのレイクリーランドを闇の手から
+救えるのは、<ムーンブレイドの勇者>であるナセル
+だけだと。
+Meanwhile, about a year after the birth of Thor, in the house of a weaponsmith in Atland, a boy was born with a crescent-shaped birthmark on his right shoulder that predicted he would become the <hero of the Moonblade>. His parents named him Nassel.
+Nassel was raised a lively and kindhearted youth. At an early age, he was introduced to swordsmanship using the blades made by his father, and already displayed prodigious skill. 
+One day, a monk visited Nassel's house. The monk introduced himself as Mathias. He said that Nassel was undoubtedly the hero of the Moonblade, and that he intended Nassel's father Roy to create the Moonblade. And that  Nassel, as the hero of the Moonblade, was the only one who could save Lake Leland from the hand of darkness.
+
+　両親は驚いたが、4年間だけという条件をつけて、
+ナセルをマティアスのもとに預けることにした。4年
+間ナセルは、剣技と魔法、そして自分の宿命をマテ
+ィアスから学び、故郷の町に帰ってきた… … …。
+――そして風は伝説の成就を告げた――
+Although Nassel's parents were surprised, they entrusted Nassel into Mathias' care, adding the condition that it be for only four years. For four years, Nassel learned of swordsmanship and magic, and of his own destiny, from Mathias, and returned to his home town.
+—And the winds told of the fulfillment of the legend—
+
+ムーンブレイドの伝説
+The Legend of the Moonblade
+
+　その昔、神々の戦いで使われた聖剣の破片
+は、地上に落ちて鉱石となり、気の遠くなる
+様な永い時をその地中で過ごしている。
+　その鉱石は、不思議な魔力を持ち、その鉱
+石で鍛えた剣は邪悪な神と戦える唯一の武器
+となる。
+　誰もがこの伝説の剣の魅力にとりつかれ、
+その鉱石を探し求めるが、誰一人としてみち
+帰ることのできた者はいない。事の真偽は別
+としてそれを見たという人間の話を聞くと、
+その鉱石は乳白色に光輝き、まるで湖に映っ
+た月のように美しいと云う。その話から、そ
+の石はムーンストーン、聖剣はムーンブレイ
+ドと呼ばれるようになった。そのムーンブレ
+イドを手にすることができるのはたった一人、
+選ばれた勇者だけなのだ。勇者が手にすれば
+ムーンブレイドは羽のように軽くなり、主人
+の意のままに動き、魔法の光を発するのだ。
+しかし、ムーンブレイドが主人と認めない者
+がその柄を握れば、たちまち大地と同化した
+かのごとく重くなり、その者に奇妙な幻想を
+見せるであろう。
+　伝説によれば、ムーンブレイドの勇者は、
+右肩に月の形をした傷が、生まれながらにつ
+いている。その勇者は、闇を支配するものの
+誕生から、ちょうど1年後に生まれ、いずれ
+は闇と戦うことになるという。
+Many ages ago, a fragment of a holy sword used in the wars of the gods fell to earth, became an ore, and spent a long time within the earth, their true nature concealed. 
+This ore possessed magical powers, and a sword forged from the ore would be the only weapon to fight against an evil god. 
+Everyone was obsessed with the allure of the sword's legend and sought out the ore, but not one of them was able to return with them. 
+Regardless of their veracity, in stories told by humans who said they had seen it, the ore was said to glow milky white, beautiful like the reflection of the moon on a lake. Because of those stories, the stone came to be called the Moonstones, and the sword, the Moonblade, Taking the Moonblade is possible for only one person, a chosen hero. In the hands of the hero, the Moonblade will become feather-light, moving as its master wills, and emitting a magical light. However, if a person the Moonblade does not recognize as its master grasps its hilt, it would become suddenly heavy as though it had transformed into the whole earth, and that person would be shown strange illusions. 
+According to the legend, the hero of the Moonblade will have, at the time of birth, a mark in the shape of the moon on their right shoulder. The hero will be born exactly one year after the one who rules the darkness, and in time will battle the darkness. 
+
+王家の血筋
+The Royal Lineage
+
+　レイクリーランドの王家には、ラグーン城を
+移動させる力が備わっている。特に第一皇女に
+は、その血が色濃く受け継がれている。だがそ
+の力を、国が危機に頻した際の非常手段以外に
+は使用してはならないという掟がある。
+そして、その力を行使するにあたっては、 皇女
+の意志のもとに行われなくてはならないという。
+なぜなら、ラグーン城から湧きだす水は、域が
+地上から離れたとたんに輝きを失い、臣民達の
+生活を危うくするために他ならない。
+The royal family of Lake Leland possess the power to move Lagoon Castle. In particular, that blood is markedly passed down to the firstborn princess. However, there is a law that says this power should not be used except in emergency situations of repeated crises to the kingdom. 
+And, it says that the use of this power should not be valid except by the will of the princess. This is because the water that springs from Lagoon Castle loses its radiance as soon as the castle separates from the ground, and the well-being of her subjects should not be endangered. 
+
+# Items
+
+Short Sword
+手頃な値段で入手できる、最もポ
+ピュラーな剣。使いやすい為、数
+多くの冒険者が好んで装備してい
+るがあまり威力はない。
+A very popular sword which can be obtained for a moderate price. For its ease of use, it has become the preferred equipment of many adventurers, although it is not very strong.
+
+Silver Sword
+その名前が示す通り銀で作った剣
+である。一般の武器では殺せない
+魔物を相手に闘うのに適した剣で
+魔を封じる力がある。
+As its name indicates, this is a sword made of silver. It is a sword suitable for fighting as opponents monsters which cannot be killed with ordinary weapons, and it has the power to seal demons.
+
+Magic Sword
+刃で斬るというよりもむしろ、魔
+力で斬るという剣、強い魔力を刀
+身に秘めており、ほとんどの魔法
+に対応している。
+A sword that cuts with magical power rather than with a sharp edge, it conceals a strong magic within its blade, and it supports most magic. 
+
+Force Sword
+この剣を使う者の気合いが、高け
+れば高いほど剣の力が引き出され、
+切れ味が増していく。しかし気力
+のない者がこの剣を使うとただの
+なまくらとなる。
+If the user of this sword has a strong fighting spirit, the sword will draw upon that high amount of strength, and the sharpness of its blade will increase. But if a weak-willed person uses this sword, it will become only blunt.
+
+Moon Blade
+伝説の勇者にのみ、使いこなすこ
+とがでぎるという幻の名剣。レイ
+クリーランドのどこか地中深くに
+眠るムーンストーンでできている。
+A phantasmal sword, it is said that only a legendary hero can master it. It is made from a Moonstone that sleeps deep underground somewhere in Lake Leland. 
+
+Iron Shield
+レベルの低い戦士にも使える、ビ
+ギナー向けの盾である。鉄の盾と
+呼ばれているが、実際のところ厚
+い木の板の上に薄い鉄板を張り付
+け耐久力を上げただけの物が多い。
+Also useful to low-level soldiers, this is a shield intended for beginners. Although it is called an "iron shield," there are many that are only attach a thin iron plate to the top of a heavy wooden board to increase its endurance. 
+
+Large Shield
+身体の半身を覆うぐらいの面積が
+ある。重量も面積に比例して重い
+が、敵の攻撃をはじき返すのに、
+おおいに役立つであろう。
+Its size covers around half the height of the body. It has a heavy weight, proportional to its size, but it is very useful for repelling enemy attacks.
+
+Great Shield
+防御の魔力を封じた宝珠が埋め込
+まれており、その防御力は、Large
+Shieldなど比べ物にならないく
+らいに高い。
+With a gem that seals protective magic embedded in it, its defensive power is beyond comparison to a Large Shield.
+
+Maxim Shield
+Great Shieldの強化版、宝珠が
+2つ埋め込まれており、敵の放っ
+た攻撃呪文にも高い抵抗力がある。
+大きさのわりに扱いやすいのが特
+徴。
+A strengthened version of the Great Shield, with two jewels embedded, it has high resistance even against attack spells fired by enemies. It features easy handling relative to its size.
+
+Moon Shield
+中心にムーンストーンが埋め込ま
+れ、さらに宝珠が８つムーンスト
+ーンの周りを囲むように配置し、
+さらに盾そのものにも魔法防御を
+施した金でできている、最強の盾。
+With a Moonstone embedded in it and eight more Moonstones in a pattern around its circumference, as well as defensive magic applied to the gold from which the shield itself is made, this is the strongest of shields.
+
+Plate Mail
+ナセルが最初から着用している鎧。
+加工した鉄板をつなぎ合わせたも
+ので、かなりの耐久力がある。
+The armor that Nassel wears from the beginning. As it is made of manufactured iron plates tied together, he has considerable stamina. 
+
+Gold Armor
+プレイトメイルの上に魔法をかけ
+た金箔をコーティングしたもので、
+魔法攻撃に対する抵抗ができる。
+A suit of Plate Mail coated with magic-infused gold leaf, it can resist magical attacks directed at it.
+
+Sonic Armor
+見た目は普通のプレイトメイルの
+様に見えるがその表面には薄い防
+御フィールドがあり、かなりの打
+撃にもびくともしない。
+It looks like ordinary Plate Mail, but it has a thin protective field on its surface that will not yield even to considerable force.
+
+Thunder Armor
+雷の鎧と言われているが、放電し
+ている訳ではない。電磁バリアの
+ようなものが鎧を包んでいて、ダ
+メージを弾きかえすようになって
+いる。
+Despite its name, this armor won't shock you. Something like an electromagnetic barrier envelops this armor, and this makes it repel damage.
+
+Moon Armor
+ムーンストーンを鎧にしたもので、
+それも勇者のために作られた鎧で
+ある。それだけに防御力は最強を
+誇り、向こう所敵なしである。
+This Moonstone made into armor, and armor fashioned for the sake of the hero. As such, it boasts the strongest defensive power and has no competition.
+
+ライ麦パン
+ナセルのお母さん手作
+りのパンで、なかなか
+おいしいと評判。
+Rye Bread
+Bread homemade by Nassel's mother, reputed to be quite delicious.
+
+村長の手紙
+アトランド村長直筆の
+手紙である。出発の日
+に入手できる。
+This is a letter in the handwriting of Atland's mayor. It can be obtained on the day of your departure.
+
+転移のマント
+名のある魔道士が、呪
+文で魔力を封じ込めた
+マント。
+Cloak of Mobility
+A cloak where a famous mage confined magic power with a charm. 
+
+ムーンストーン
+伝説にある、神々の聖
+剣の破片が鉱石に姿を
+変えたといわれる。
+Said to be a fragment of the holy sword of the gods that exists in legend, changed in shape into an ore.
+
+冷気の壺
+ある場所で必ず必要に
+なるが、どこで入手で
+きるかは不明。
+Chillwind Vase
+There is a place where this will become indispensable, but where it can be obtained is unclear.
+
+羽衣の鐘
+この鐘の澄んだ音色は
+精霊達を呼び出すこと
+ができるという。
+Angel Bell
+The clear tone of this bell is able to summon the spirits of the dead.
+
+毛皮のマント
+極塞の地に生む動物の
+毛皮をマントの裏地に
+縫いつけたもので、保
+温性が高い。
+[Very likely that 極塞  is a typo for 極寒.]
+Fur Cloak
+With the fur of animals that live in the coldest lands sewn into it, this cloak is highly insulating.
+
+破邪の剣
+封印された扉を開ける。
+Exorcist Blade
+Opens a sealed door.
+
+ポーション
+HPがやや回復する。
+Potion
+Recovers HP partially.
+
+エリクサー
+HPが全快する。
+Elixir
+Recovers HP fully.
+
+命の珠
+死の国から舞い房るこ
+とができる。
+[舞い房る is very likely a typo for 舞い戻る.]
+Pearl of Life
+Allows you to return from the land of death.
+
+輝きの石
+MPが全快する。
+Radiant Stone
+Recovers MP fully.
+
+光の石
+MPがやや回復する。
+Recovers MP partially.
+
+守りの指輪
+防御力を高める
+力を秘めている。
+Ring of Defense
+Holds the power to enhance your defense.
+
+力の指輪
+この指輪をはめ
+ると筋力が増し、
+攻撃力が高まる。
+Ring of Power
+When you wear this ring, your strength is increased, and your attack power rises.
+
+防護の指輪
+あらゆる攻撃を
+はねのけること
+ができる。
+Ring of Protection
+Allows you to brush off every attack.
+
+治癒の指輪
+戦いで受けた傷
+を癒してくれる
+指輪である。
+Ring of Recovery
+This is a ring that heals wounds received in battle.
+
+時の指輪
+時間の流れを止
+めてしまうとい
+うとてつもない
+力を秘めている
+指輪。
+Ring of Time
+A ring that holds the incredible power to completely stop the flow of time.
