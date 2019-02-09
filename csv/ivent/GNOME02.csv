@@ -1,10 +1,16 @@
 "あんた、あの女の子の
 恋人かい？
 いやぁ。言わなくていいよ。
-人には色々あるからね。",Text 0
+人には色々あるからね。","Are you that girl's lover?
+No, you don't have to
+say! You can be various
+things to people.",
 "この先には氷に閉ざされた洞
 窟がある。毛皮のマントがな
-ければ凍え死ぬじゃろう。",Text 1
+ければ凍え死ぬじゃろう。","There's a cave closed off
+by ice past here. Without
+a Fur Cloak, you'll
+probably freeze to death.",
 "おお。
 君がムーンブレイドの勇者か。齔
 よくぞ参られた。だがお前に
@@ -29,19 +35,29 @@
 伝説通りに現れおったわい。齔
 奴を倒すには、
 ムーンブレイドが必要だ。
-なんとしても取り返すのだ。",Text 2
+なんとしても取り返すのだ。",Text 2,
 "雷光の杖は、ニンフが
 持っているはずよ。齔
 これは、ニンフを呼び出す
 為の、羽衣の鐘。
-湖のほとりで使いなさい。",Text 3
+湖のほとりで使いなさい。","The nymphs ought to
+have a Boltlight Staff.\
+This is an Angel Bell,
+for summoning them.
+Use it by the lake!",
 "この間、化け物に捕まっていた
 人間の女の子を、助けたんだ。
-とってもいい子だよ。",Text 4
+とってもいい子だよ。","Not long ago, we rescued
+a human girl who was
+imprisoned by monsters.
+Such a good child!",
 "わぁ、びっくりした。
-人間が入って来るなんて。",Text 5
+人間が入って来るなんて。","Wah, that's a surprise!
+Human visitors!",
 "ニンフ達が姿を見せないと
-寂しくっていけねぇや。",Text 6
+寂しくっていけねぇや。","If the nymphs don't
+show up, you can't
+go on alone!",
 "ナセル！！
 無事だったのね！齔
 ＋＠大変なの！アトランド
@@ -64,17 +80,27 @@
 ＋＠・・・ごめんなさい
 ナセル・・・。
 私だけが助かるなんて
-・・・。",Text 7
+・・・。",Text 7,
 "寒いうえに化け物が出るから
-始末に負えん。ブルブルッ。",Text 8
+始末に負えん。ブルブルッ。","I can't deal with starving
+in the cold, and the
+monsters appearing! Brr...",*** NEEDS REVISITING ***
 "そう一人でいきまいても仕方
 ないじゃろ。齔
 いくらお前さんが強くても、
 ムーンブレイドなしでは闇の
-力には勝てんぞ。",Text 9
+力には勝てんぞ。","There's no use
+rushing off alone!\
+No matter how strong you
+are, without the Moonblade,
+you won't win against
+the power of darkness.",
 "この鐘を鳴らせば、
-ニンフは現れるでしょう。",Text 10
+ニンフは現れるでしょう。","If you ring this bell,
+the nymphs should appear.",
 "＋＋＋・・・なんて言ったら
 いいのか。
 ごめんなさい、ナセル
-・・・。",Text 11
+・・・。","+++...I don't know what
+to say.
+I'm sorry, Nassel...",
