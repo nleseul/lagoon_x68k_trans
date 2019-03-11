@@ -9,12 +9,12 @@ When did you get home?\
 I got injured, and
 I've been hiding.\
 If only I had a Potion...\
-Do you have one?"
-ありがとう。,Thanks!
-頼む。持ってきてくれよ。,"Bring one for me.
-I'm counting on you!"
+Do you have one?",*** CONFIRMED ***
+ありがとう。,Thanks!,*** CONFIRMED ***
+頼む。持ってきてくれよ。,"I'm counting on you! Come
+back when you have it.",*** CONFIRMED ***
 持ってないじゃないか。,"You don't have
-one, do you?"
+one, do you?",*** CONFIRMED ***
 "ありがとう。
 おかげで助かったよ。
 これで帰れる。
@@ -22,11 +22,13 @@ one, do you?"
 妙な扉があったろう。
 その事を、祈祷所の
 おばばが言っていたのを
-聞いた事があるぜ。","Thanks! You're a life-saver!
-Use this to return to town.\
-By the way... wasn't
-there a funny door
+聞いた事があるぜ。","Thanks! You're a
+life-saver! I'll be
+able to return to
+town with this.
+By the way, wasn't
+there a strange door
 on the first floor?\
-I think I've heard the
-old lady at the sanctum
-saying something about that."
+I've heard the old
+lady at the priory
+talking about that.",*** CONFIRMED ***
