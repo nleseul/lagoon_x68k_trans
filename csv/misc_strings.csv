@@ -74,14 +74,14 @@
 治癒の指輪,Ring of Recovery,
 時の指輪,Ring of Time,
 ねこ,Cat,
-紅炎の水晶,Redflame Crystal,
-衝波の水晶,Wavecrash Crystal,*** NEEDS REVISITING ***
-流破の水晶,Flowrend Crystal,*** NEEDS REVISITING ***
-雷光の水晶,Stormlight Crystal,
-紅炎の杖,Redflame Staff,
-衝波の杖,Wavecrash Staff,*** NEEDS REVISITING ***
-流破の杖,Flowrend Staff,*** NEEDS REVISITING ***
-雷光の杖,Stormlight Staff,
+紅炎の水晶,Inferno Crystal,
+衝波の水晶,Upheaval Crystal,
+流破の水晶,Deluge Crystal,
+雷光の水晶,Thunderbolt Crystal,
+紅炎の杖,Inferno Staff,
+衝波の杖,Upheaval Staff,
+流破の杖,Deluge Staff,
+雷光の杖,Thunderbolt Staff,
 破邪の剣,Exorcist Blade,
 アイテム予備０,,
 アイテム予備１,,
@@ -133,3 +133,4 @@
 売り物予備７,,
 売り物予備８,,
 売り物予備９,,
+,,
