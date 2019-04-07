@@ -1,0 +1,1844 @@
+{
+    "init": [
+        {
+            "op": 22,
+            "orig_address": 0,
+            "content": "01"
+        },
+        {
+            "op": 23,
+            "orig_address": 2,
+            "content": "04"
+        },
+        {
+            "op": 38,
+            "orig_address": 4,
+            "content": "010202"
+        },
+        {
+            "op": 2,
+            "orig_address": 8,
+            "content": "00"
+        },
+        {
+            "op": 6,
+            "orig_address": 10,
+            "content": "2a570101000e47",
+            "orig_ref_offsets": [
+                3655
+            ],
+            "ref_ids": [
+                0
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 18,
+            "content": "1c4d0304010eb2",
+            "orig_ref_offsets": [
+                3762
+            ],
+            "ref_ids": [
+                1
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 26,
+            "content": "494b0203010f11",
+            "orig_ref_offsets": [
+                3857
+            ],
+            "ref_ids": [
+                2
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 34,
+            "content": "27160002010f68",
+            "orig_ref_offsets": [
+                3944
+            ],
+            "ref_ids": [
+                3
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 42,
+            "content": "2b360105010fcb",
+            "orig_ref_offsets": [
+                4043
+            ],
+            "ref_ids": [
+                4
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 50,
+            "content": "1c340309011026",
+            "orig_ref_offsets": [
+                4134
+            ],
+            "ref_ids": [
+                5
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 58,
+            "content": "07340002011067",
+            "orig_ref_offsets": [
+                4199
+            ],
+            "ref_ids": [
+                6
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 66,
+            "content": "490a02010110c8",
+            "orig_ref_offsets": [
+                4296
+            ],
+            "ref_ids": [
+                7
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 74,
+            "content": "0d170101011117",
+            "orig_ref_offsets": [
+                4375
+            ],
+            "ref_ids": [
+                8
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 82,
+            "content": "3e33020601117c",
+            "orig_ref_offsets": [
+                4476
+            ],
+            "ref_ids": [
+                9
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 90,
+            "content": "3c330208021201",
+            "orig_ref_offsets": [
+                4609
+            ],
+            "ref_ids": [
+                10
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 98,
+            "content": "3a33020a021202",
+            "orig_ref_offsets": [
+                4610
+            ],
+            "ref_ids": [
+                11
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 106,
+            "content": "071a0111021201",
+            "orig_ref_offsets": [
+                4609
+            ],
+            "ref_ids": [
+                10
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 114,
+            "content": "3c450111021201",
+            "orig_ref_offsets": [
+                4609
+            ],
+            "ref_ids": [
+                10
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 122,
+            "content": "0f440111021201",
+            "orig_ref_offsets": [
+                4609
+            ],
+            "ref_ids": [
+                10
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 130,
+            "content": "151a0112021201",
+            "orig_ref_offsets": [
+                4609
+            ],
+            "ref_ids": [
+                10
+            ]
+        },
+        {
+            "op": 6,
+            "orig_address": 138,
+            "content": "361a0113021201",
+            "orig_ref_offsets": [
+                4609
+            ],
+            "ref_ids": [
+                10
+            ]
+        },
+        {
+            "op": 3,
+            "orig_address": 146,
+            "content": "00"
+        },
+        {
+            "op": 8,
+            "orig_address": 148,
+            "content": "141a012600963000962b006400000001f8",
+            "orig_ref_offsets": [
+                504
+            ],
+            "ref_ids": [
+                12
+            ]
+        },
+        {
+            "op": 8,
+            "orig_address": 166,
+            "content": "151a012600963000962b006400000001f8",
+            "orig_ref_offsets": [
+                504
+            ],
+            "ref_ids": [
+                12
+            ]
+        },
+        {
+            "op": 8,
+            "orig_address": 184,
+            "content": "412d033f000542000a4000c80000000249",
+            "orig_ref_offsets": [
+                585
+            ],
+            "ref_ids": [
+                13
+            ]
+        },
+        {
+            "op": 8,
+            "orig_address": 202,
+            "content": "422d033f000542000a4000c80000000249",
+            "orig_ref_offsets": [
+                585
+            ],
+            "ref_ids": [
+                13
+            ]
+        },
+        {
+            "op": 8,
+            "orig_address": 220,
+            "content": "432d033f000542000a4000c80000000249",
+            "orig_ref_offsets": [
+                585
+            ],
+            "ref_ids": [
+                13
+            ]
+        },
+        {
+            "op": 8,
+            "orig_address": 238,
+            "content": "442d033f000542000a4000c80000000249",
+            "orig_ref_offsets": [
+                585
+            ],
+            "ref_ids": [
+                13
+            ]
+        },
+        {
+            "op": 8,
+            "orig_address": 256,
+            "content": "452d033f000542000a4000c80000000249",
+            "orig_ref_offsets": [
+                585
+            ],
+            "ref_ids": [
+                13
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 274,
+            "content": "0c2d02029a",
+            "orig_ref_offsets": [
+                666
+            ],
+            "ref_ids": [
+                14
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 280,
+            "content": "0d2d02029a",
+            "orig_ref_offsets": [
+                666
+            ],
+            "ref_ids": [
+                14
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 286,
+            "content": "0e2d02029a",
+            "orig_ref_offsets": [
+                666
+            ],
+            "ref_ids": [
+                14
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 292,
+            "content": "0f2d02029a",
+            "orig_ref_offsets": [
+                666
+            ],
+            "ref_ids": [
+                14
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 298,
+            "content": "102d02029a",
+            "orig_ref_offsets": [
+                666
+            ],
+            "ref_ids": [
+                14
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 304,
+            "content": "3b45040353",
+            "orig_ref_offsets": [
+                851
+            ],
+            "ref_ids": [
+                15
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 310,
+            "content": "3c45040353",
+            "orig_ref_offsets": [
+                851
+            ],
+            "ref_ids": [
+                15
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 316,
+            "content": "351a05050d",
+            "orig_ref_offsets": [
+                1293
+            ],
+            "ref_ids": [
+                16
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 322,
+            "content": "361a05050d",
+            "orig_ref_offsets": [
+                1293
+            ],
+            "ref_ids": [
+                16
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 328,
+            "content": "061a0908b5",
+            "orig_ref_offsets": [
+                2229
+            ],
+            "ref_ids": [
+                17
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 334,
+            "content": "071a0908b5",
+            "orig_ref_offsets": [
+                2229
+            ],
+            "ref_ids": [
+                17
+            ]
+        },
+        {
+            "op": 10,
+            "orig_address": 340,
+            "content": "00100175"
+        },
+        {
+            "op": 9,
+            "orig_address": 345,
+            "content": "0e43070b0d",
+            "orig_ref_offsets": [
+                2829
+            ],
+            "ref_ids": [
+                18
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 351,
+            "content": "0f43070b0d",
+            "orig_ref_offsets": [
+                2829
+            ],
+            "ref_ids": [
+                18
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 357,
+            "content": "0e44070b0d",
+            "orig_ref_offsets": [
+                2829
+            ],
+            "ref_ids": [
+                18
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 363,
+            "content": "0f44070b0d",
+            "orig_ref_offsets": [
+                2829
+            ],
+            "ref_ids": [
+                18
+            ]
+        },
+        {
+            "op": 16,
+            "orig_address": 369,
+            "content": "018e"
+        },
+        {
+            "op": 0,
+            "orig_address": 372,
+            "content": ""
+        },
+        {
+            "op": 9,
+            "orig_address": 373,
+            "content": "0e44070ba9",
+            "orig_ref_offsets": [
+                2985
+            ],
+            "ref_ids": [
+                19
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 379,
+            "content": "0f44070ba9",
+            "orig_ref_offsets": [
+                2985
+            ],
+            "ref_ids": [
+                19
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 385,
+            "content": "0e43070b0d",
+            "orig_ref_offsets": [
+                2829
+            ],
+            "ref_ids": [
+                18
+            ]
+        },
+        {
+            "op": 9,
+            "orig_address": 391,
+            "content": "0f43070b0d",
+            "orig_ref_offsets": [
+                2829
+            ],
+            "ref_ids": [
+                18
+            ]
+        },
+        {
+            "op": 0,
+            "orig_address": 397,
+            "content": ""
+        },
+        {
+            "op": 4,
+            "orig_address": 398,
+            "content": "00"
+        },
+        {
+            "op": 7,
+            "orig_address": 400,
+            "content": "242b0a280300001f2d00000000ffff00"
+        },
+        {
+            "op": 7,
+            "orig_address": 417,
+            "content": "252b0a280300001f2d00000000ffff00"
+        },
+        {
+            "op": 7,
+            "orig_address": 434,
+            "content": "2604101e0200001f1f00000000ffff00"
+        },
+        {
+            "op": 7,
+            "orig_address": 451,
+            "content": "2704101e0200001f1f00000000ffff00"
+        },
+        {
+            "op": 7,
+            "orig_address": 468,
+            "content": "2804101e0200001f1f00000000ffff00"
+        },
+        {
+            "op": 7,
+            "orig_address": 485,
+            "content": "2904101e0200001f1f00000000ffff00"
+        },
+        {
+            "op": 28,
+            "orig_address": 502,
+            "content": "00"
+        }
+    ],
+    "events": [
+        {
+            "op": 112,
+            "orig_address": 504,
+            "text_id": 10,
+            "id": 12
+        },
+        {
+            "op": 0,
+            "orig_address": 584
+        },
+        {
+            "op": 112,
+            "orig_address": 585,
+            "text_id": 11,
+            "id": 13
+        },
+        {
+            "op": 0,
+            "orig_address": 665
+        },
+        {
+            "op": 35,
+            "orig_address": 666,
+            "content": "00",
+            "id": 14
+        },
+        {
+            "op": 10,
+            "orig_address": 668,
+            "content": "00080322",
+            "orig_ref_offsets": [
+                802
+            ],
+            "ref_ids": [
+                30
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 673,
+            "text_id": 12
+        },
+        {
+            "op": 0,
+            "orig_address": 801
+        },
+        {
+            "op": 112,
+            "orig_address": 802,
+            "text_id": 33,
+            "id": 30
+        },
+        {
+            "op": 0,
+            "orig_address": 850
+        },
+        {
+            "op": 35,
+            "orig_address": 851,
+            "content": "00",
+            "id": 15
+        },
+        {
+            "op": 10,
+            "orig_address": 853,
+            "content": "01010389",
+            "orig_ref_offsets": [
+                905
+            ],
+            "ref_ids": [
+                31
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 858,
+            "text_id": 13
+        },
+        {
+            "op": 0,
+            "orig_address": 904
+        },
+        {
+            "op": 10,
+            "orig_address": 905,
+            "content": "01020498",
+            "orig_ref_offsets": [
+                1176
+            ],
+            "id": 31,
+            "ref_ids": [
+                44
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 910,
+            "text_id": 34
+        },
+        {
+            "op": 19,
+            "orig_address": 1170,
+            "content": "1b"
+        },
+        {
+            "op": 14,
+            "orig_address": 1172,
+            "content": "0102"
+        },
+        {
+            "op": 0,
+            "orig_address": 1175
+        },
+        {
+            "op": 10,
+            "orig_address": 1176,
+            "content": "050404c4",
+            "orig_ref_offsets": [
+                1220
+            ],
+            "id": 44,
+            "ref_ids": [
+                50
+            ]
+        },
+        {
+            "op": 35,
+            "orig_address": 1181,
+            "content": "00"
+        },
+        {
+            "op": 112,
+            "orig_address": 1183,
+            "text_id": 44
+        },
+        {
+            "op": 0,
+            "orig_address": 1219
+        },
+        {
+            "op": 112,
+            "orig_address": 1220,
+            "text_id": 48,
+            "id": 50
+        },
+        {
+            "op": 19,
+            "orig_address": 1290,
+            "content": "12"
+        },
+        {
+            "op": 0,
+            "orig_address": 1292
+        },
+        {
+            "op": 35,
+            "orig_address": 1293,
+            "content": "01",
+            "id": 16
+        },
+        {
+            "op": 10,
+            "orig_address": 1295,
+            "content": "000105e0",
+            "orig_ref_offsets": [
+                1504
+            ],
+            "ref_ids": [
+                32
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 1300,
+            "text_id": 14
+        },
+        {
+            "op": 14,
+            "orig_address": 1496,
+            "content": "0001"
+        },
+        {
+            "op": 26,
+            "orig_address": 1499,
+            "content": "06079600",
+            "orig_ref_offsets": [
+                1942
+            ],
+            "ref_ids": [
+                33
+            ]
+        },
+        {
+            "op": 12,
+            "orig_address": 1504,
+            "content": "0090062c",
+            "orig_ref_offsets": [
+                1580
+            ],
+            "id": 32,
+            "ref_ids": [
+                34
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 1509,
+            "text_id": 15
+        },
+        {
+            "op": 26,
+            "orig_address": 1575,
+            "content": "0607cb00",
+            "orig_ref_offsets": [
+                1995
+            ],
+            "ref_ids": [
+                35
+            ]
+        },
+        {
+            "op": 10,
+            "orig_address": 1580,
+            "content": "0102066a",
+            "orig_ref_offsets": [
+                1642
+            ],
+            "id": 34,
+            "ref_ids": [
+                36
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 1585,
+            "text_id": 16
+        },
+        {
+            "op": 26,
+            "orig_address": 1637,
+            "content": "0607fc00",
+            "orig_ref_offsets": [
+                2044
+            ],
+            "ref_ids": [
+                37
+            ]
+        },
+        {
+            "op": 10,
+            "orig_address": 1642,
+            "content": "01040779",
+            "orig_ref_offsets": [
+                1913
+            ],
+            "id": 36,
+            "ref_ids": [
+                38
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 1647,
+            "text_id": 17
+        },
+        {
+            "op": 14,
+            "orig_address": 1905,
+            "content": "0104"
+        },
+        {
+            "op": 26,
+            "orig_address": 1908,
+            "content": "06083200",
+            "orig_ref_offsets": [
+                2098
+            ],
+            "ref_ids": [
+                39
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 1913,
+            "text_id": 18,
+            "id": 38
+        },
+        {
+            "op": 26,
+            "orig_address": 1937,
+            "content": "06087100",
+            "orig_ref_offsets": [
+                2161
+            ],
+            "ref_ids": [
+                40
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 1942,
+            "text_id": 19,
+            "id": 33
+        },
+        {
+            "op": 0,
+            "orig_address": 1994
+        },
+        {
+            "op": 112,
+            "orig_address": 1995,
+            "text_id": 35,
+            "id": 35
+        },
+        {
+            "op": 0,
+            "orig_address": 2043
+        },
+        {
+            "op": 10,
+            "orig_address": 2044,
+            "content": "00200888",
+            "orig_ref_offsets": [
+                2184
+            ],
+            "id": 37,
+            "ref_ids": [
+                45
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 2049,
+            "text_id": 36
+        },
+        {
+            "op": 0,
+            "orig_address": 2097
+        },
+        {
+            "op": 112,
+            "orig_address": 2098,
+            "text_id": 37,
+            "id": 39
+        },
+        {
+            "op": 19,
+            "orig_address": 2158,
+            "content": "01"
+        },
+        {
+            "op": 0,
+            "orig_address": 2160
+        },
+        {
+            "op": 112,
+            "orig_address": 2161,
+            "text_id": 38,
+            "id": 40
+        },
+        {
+            "op": 0,
+            "orig_address": 2183
+        },
+        {
+            "op": 112,
+            "orig_address": 2184,
+            "text_id": 45,
+            "id": 45
+        },
+        {
+            "op": 0,
+            "orig_address": 2228
+        },
+        {
+            "op": 35,
+            "orig_address": 2229,
+            "content": "00",
+            "id": 17
+        },
+        {
+            "op": 12,
+            "orig_address": 2231,
+            "content": "00900935",
+            "orig_ref_offsets": [
+                2357
+            ],
+            "ref_ids": [
+                41
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 2236,
+            "text_id": 20
+        },
+        {
+            "op": 0,
+            "orig_address": 2356
+        },
+        {
+            "op": 10,
+            "orig_address": 2357,
+            "content": "00200a44",
+            "orig_ref_offsets": [
+                2628
+            ],
+            "id": 41,
+            "ref_ids": [
+                46
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 2362,
+            "text_id": 39
+        },
+        {
+            "op": 14,
+            "orig_address": 2624,
+            "content": "0020"
+        },
+        {
+            "op": 0,
+            "orig_address": 2627
+        },
+        {
+            "op": 10,
+            "orig_address": 2628,
+            "content": "01010a64",
+            "orig_ref_offsets": [
+                2660
+            ],
+            "id": 46,
+            "ref_ids": [
+                51
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 2633,
+            "text_id": 46
+        },
+        {
+            "op": 0,
+            "orig_address": 2659
+        },
+        {
+            "op": 112,
+            "orig_address": 2660,
+            "text_id": 49,
+            "id": 51
+        },
+        {
+            "op": 0,
+            "orig_address": 2828
+        },
+        {
+            "op": 35,
+            "orig_address": 2829,
+            "content": "01",
+            "id": 18
+        },
+        {
+            "op": 10,
+            "orig_address": 2831,
+            "content": "00010b55",
+            "orig_ref_offsets": [
+                2901
+            ],
+            "ref_ids": [
+                42
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 2836,
+            "text_id": 21
+        },
+        {
+            "op": 0,
+            "orig_address": 2900
+        },
+        {
+            "op": 10,
+            "orig_address": 2901,
+            "content": "00200bd7",
+            "orig_ref_offsets": [
+                3031
+            ],
+            "id": 42,
+            "ref_ids": [
+                43
+            ]
+        },
+        {
+            "op": 10,
+            "orig_address": 2906,
+            "content": "00020ba9",
+            "orig_ref_offsets": [
+                2985
+            ],
+            "ref_ids": [
+                19
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 2911,
+            "text_id": 40
+        },
+        {
+            "op": 14,
+            "orig_address": 2981,
+            "content": "0002"
+        },
+        {
+            "op": 0,
+            "orig_address": 2984
+        },
+        {
+            "op": 35,
+            "orig_address": 2985,
+            "content": "01",
+            "id": 19
+        },
+        {
+            "op": 10,
+            "orig_address": 2987,
+            "content": "00200bd7",
+            "orig_ref_offsets": [
+                3031
+            ],
+            "ref_ids": [
+                43
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 2992,
+            "text_id": 22
+        },
+        {
+            "op": 0,
+            "orig_address": 3030
+        },
+        {
+            "op": 10,
+            "orig_address": 3031,
+            "content": "00400c0b",
+            "orig_ref_offsets": [
+                3083
+            ],
+            "id": 43,
+            "ref_ids": [
+                47
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 3036,
+            "text_id": 41
+        },
+        {
+            "op": 26,
+            "orig_address": 3078,
+            "content": "080c2400",
+            "orig_ref_offsets": [
+                3108
+            ],
+            "ref_ids": [
+                48
+            ]
+        },
+        {
+            "op": 35,
+            "orig_address": 3083,
+            "content": "01",
+            "id": 47
+        },
+        {
+            "op": 112,
+            "orig_address": 3085,
+            "text_id": 42
+        },
+        {
+            "op": 26,
+            "orig_address": 3103,
+            "content": "080e3200",
+            "orig_ref_offsets": [
+                3634
+            ],
+            "ref_ids": [
+                49
+            ]
+        },
+        {
+            "op": 35,
+            "orig_address": 3108,
+            "content": "02",
+            "id": 48
+        },
+        {
+            "op": 10,
+            "orig_address": 3110,
+            "content": "00400e32",
+            "orig_ref_offsets": [
+                3634
+            ],
+            "ref_ids": [
+                49
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 3115,
+            "text_id": 43
+        },
+        {
+            "op": 19,
+            "orig_address": 3625,
+            "content": "02"
+        },
+        {
+            "op": 39,
+            "orig_address": 3627,
+            "content": "015e"
+        },
+        {
+            "op": 14,
+            "orig_address": 3630,
+            "content": "0040"
+        },
+        {
+            "op": 0,
+            "orig_address": 3633
+        },
+        {
+            "op": 35,
+            "orig_address": 3634,
+            "content": "02",
+            "id": 49
+        },
+        {
+            "op": 112,
+            "orig_address": 3636,
+            "text_id": 47
+        },
+        {
+            "op": 0,
+            "orig_address": 3654
+        },
+        {
+            "op": 35,
+            "orig_address": 3655,
+            "content": "00",
+            "id": 0
+        },
+        {
+            "op": 12,
+            "orig_address": 3657,
+            "content": "00900e8b",
+            "orig_ref_offsets": [
+                3723
+            ],
+            "ref_ids": [
+                20
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 3662,
+            "text_id": 0
+        },
+        {
+            "op": 0,
+            "orig_address": 3722
+        },
+        {
+            "op": 112,
+            "orig_address": 3723,
+            "text_id": 23,
+            "id": 20
+        },
+        {
+            "op": 0,
+            "orig_address": 3761
+        },
+        {
+            "op": 35,
+            "orig_address": 3762,
+            "content": "01",
+            "id": 1
+        },
+        {
+            "op": 12,
+            "orig_address": 3764,
+            "content": "00900ee0",
+            "orig_ref_offsets": [
+                3808
+            ],
+            "ref_ids": [
+                21
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 3769,
+            "text_id": 1
+        },
+        {
+            "op": 0,
+            "orig_address": 3807
+        },
+        {
+            "op": 112,
+            "orig_address": 3808,
+            "text_id": 24,
+            "id": 21
+        },
+        {
+            "op": 0,
+            "orig_address": 3856
+        },
+        {
+            "op": 35,
+            "orig_address": 3857,
+            "content": "00",
+            "id": 2
+        },
+        {
+            "op": 12,
+            "orig_address": 3859,
+            "content": "00900f41",
+            "orig_ref_offsets": [
+                3905
+            ],
+            "ref_ids": [
+                22
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 3864,
+            "text_id": 2
+        },
+        {
+            "op": 0,
+            "orig_address": 3904
+        },
+        {
+            "op": 112,
+            "orig_address": 3905,
+            "text_id": 25,
+            "id": 22
+        },
+        {
+            "op": 0,
+            "orig_address": 3943
+        },
+        {
+            "op": 35,
+            "orig_address": 3944,
+            "content": "01",
+            "id": 3
+        },
+        {
+            "op": 12,
+            "orig_address": 3946,
+            "content": "00900f96",
+            "orig_ref_offsets": [
+                3990
+            ],
+            "ref_ids": [
+                23
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 3951,
+            "text_id": 3
+        },
+        {
+            "op": 0,
+            "orig_address": 3989
+        },
+        {
+            "op": 112,
+            "orig_address": 3990,
+            "text_id": 26,
+            "id": 23
+        },
+        {
+            "op": 0,
+            "orig_address": 4042
+        },
+        {
+            "op": 35,
+            "orig_address": 4043,
+            "content": "00",
+            "id": 4
+        },
+        {
+            "op": 12,
+            "orig_address": 4045,
+            "content": "00900ffb",
+            "orig_ref_offsets": [
+                4091
+            ],
+            "ref_ids": [
+                24
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 4050,
+            "text_id": 4
+        },
+        {
+            "op": 0,
+            "orig_address": 4090
+        },
+        {
+            "op": 112,
+            "orig_address": 4091,
+            "text_id": 27,
+            "id": 24
+        },
+        {
+            "op": 0,
+            "orig_address": 4133
+        },
+        {
+            "op": 35,
+            "orig_address": 4134,
+            "content": "01",
+            "id": 5
+        },
+        {
+            "op": 12,
+            "orig_address": 4136,
+            "content": "00901042",
+            "orig_ref_offsets": [
+                4162
+            ],
+            "ref_ids": [
+                25
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 4141,
+            "text_id": 5
+        },
+        {
+            "op": 0,
+            "orig_address": 4161
+        },
+        {
+            "op": 112,
+            "orig_address": 4162,
+            "text_id": 28,
+            "id": 25
+        },
+        {
+            "op": 0,
+            "orig_address": 4198
+        },
+        {
+            "op": 35,
+            "orig_address": 4199,
+            "content": "01",
+            "id": 6
+        },
+        {
+            "op": 12,
+            "orig_address": 4201,
+            "content": "0090108d",
+            "orig_ref_offsets": [
+                4237
+            ],
+            "ref_ids": [
+                26
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 4206,
+            "text_id": 6
+        },
+        {
+            "op": 0,
+            "orig_address": 4236
+        },
+        {
+            "op": 112,
+            "orig_address": 4237,
+            "text_id": 29,
+            "id": 26
+        },
+        {
+            "op": 0,
+            "orig_address": 4295
+        },
+        {
+            "op": 35,
+            "orig_address": 4296,
+            "content": "00",
+            "id": 7
+        },
+        {
+            "op": 12,
+            "orig_address": 4298,
+            "content": "009010f4",
+            "orig_ref_offsets": [
+                4340
+            ],
+            "ref_ids": [
+                27
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 4303,
+            "text_id": 7
+        },
+        {
+            "op": 0,
+            "orig_address": 4339
+        },
+        {
+            "op": 112,
+            "orig_address": 4340,
+            "text_id": 30,
+            "id": 27
+        },
+        {
+            "op": 0,
+            "orig_address": 4374
+        },
+        {
+            "op": 35,
+            "orig_address": 4375,
+            "content": "00",
+            "id": 8
+        },
+        {
+            "op": 12,
+            "orig_address": 4377,
+            "content": "00901155",
+            "orig_ref_offsets": [
+                4437
+            ],
+            "ref_ids": [
+                28
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 4382,
+            "text_id": 8
+        },
+        {
+            "op": 0,
+            "orig_address": 4436
+        },
+        {
+            "op": 112,
+            "orig_address": 4437,
+            "text_id": 31,
+            "id": 28
+        },
+        {
+            "op": 0,
+            "orig_address": 4475
+        },
+        {
+            "op": 35,
+            "orig_address": 4476,
+            "content": "01",
+            "id": 9
+        },
+        {
+            "op": 12,
+            "orig_address": 4478,
+            "content": "009011d8",
+            "orig_ref_offsets": [
+                4568
+            ],
+            "ref_ids": [
+                29
+            ]
+        },
+        {
+            "op": 112,
+            "orig_address": 4483,
+            "text_id": 9
+        },
+        {
+            "op": 0,
+            "orig_address": 4567
+        },
+        {
+            "op": 112,
+            "orig_address": 4568,
+            "text_id": 32,
+            "id": 29
+        },
+        {
+            "op": 0,
+            "orig_address": 4608
+        },
+        {
+            "op": 0,
+            "orig_address": 4609,
+            "id": 10
+        },
+        {
+            "op": 24,
+            "orig_address": 4610,
+            "content": "00",
+            "id": 11
+        },
+        {
+            "op": 0,
+            "orig_address": 4612
+        }
+    ],
+    "text": [
+        {
+            "id": 0,
+            "orig_text": "ナセルじゃないか！\nよく戻ってきたな。\nきっと皆、喜ぶぞ。",
+            "new_text": "Text 0"
+        },
+        {
+            "id": 1,
+            "orig_text": "ひゃー！驚いた！\nナセルじゃないの。",
+            "new_text": "Text 1"
+        },
+        {
+            "id": 2,
+            "orig_text": "よお！ナセル。\nたくましくなったなあ。",
+            "new_text": "Text 2"
+        },
+        {
+            "id": 3,
+            "orig_text": "本当にナセルなの？\n見違えちゃった。",
+            "new_text": "Text 3"
+        },
+        {
+            "id": 4,
+            "orig_text": "よく戻ったな。\n村長さんに挨拶したか？",
+            "new_text": "Text 4"
+        },
+        {
+            "id": 5,
+            "orig_text": "お兄ちゃん、だれ？",
+            "new_text": "Text 5"
+        },
+        {
+            "id": 6,
+            "orig_text": "素敵になったわね。\nナセル。",
+            "new_text": "Text 6"
+        },
+        {
+            "id": 7,
+            "orig_text": "よぉ！修行の成果を\n見せてくれよ。",
+            "new_text": "Text 7"
+        },
+        {
+            "id": 8,
+            "orig_text": "ダグのお母さんの具合い、\nあまり良くないらしいんだ。",
+            "new_text": "Text 8"
+        },
+        {
+            "id": 9,
+            "orig_text": "ナセル！帰ったんだね。\nおばさんは嬉しいよ。齔\n早くお母さんに\n顔を見せておやり。",
+            "new_text": "Text 9"
+        },
+        {
+            "id": 10,
+            "orig_text": "何が欲しいんだ？\n買うかい？\nありがとう。\n持っているだろ。\n金が足りないぜ。",
+            "new_text": "Text 10"
+        },
+        {
+            "id": 11,
+            "orig_text": "何にしますか？\n買いますか？\nありがとう。\n持っていますよ。\nお金が足りません",
+            "new_text": "Text 11"
+        },
+        {
+            "id": 12,
+            "orig_text": "最近いいお酒が\n入って来ないのよね。\nフィリップス城じゃ\nこの時期になると\nいつもおいしい\nワインを作って\nいたのに・・・。＠",
+            "new_text": "Text 12"
+        },
+        {
+            "id": 13,
+            "orig_text": "何の用じゃ。\n用が無いのなら\n帰っておくれ。",
+            "new_text": "Text 13"
+        },
+        {
+            "id": 14,
+            "orig_text": "＋！ナセル？ナセル？\nやっと帰ってきて\nくれたんだね・・・。\nさあ、そんなとこに\nつったってないで\nお入りよ。\n−あっ！村長さんの所に\n挨拶して来なきゃね。\n村長さんもお前の事\n心配していたよ。",
+            "new_text": "Text 14"
+        },
+        {
+            "id": 15,
+            "orig_text": "お父さんはここんとこ\nムーンストーンとかを\n探しに行っているの。",
+            "new_text": "Text 15"
+        },
+        {
+            "id": 16,
+            "orig_text": "化物が町のすぐ\n近くまで来るなんて\n恐ろしい事ね。",
+            "new_text": "Text 16"
+        },
+        {
+            "id": 17,
+            "orig_text": "＋＋ナセル・・・。\nまた行って\nしまうのかい？\n・・・・・。\nそう・・・。\nそれはきっとお前の\n持って生まれた運命\nなのだろうね。\n−−頑張っておいで。齔\n命を粗末にしては\nいけないよ。\n＋さあ。\n母さんが作った\nパンを持ってお行き。\n＋気を付けるんだよ。",
+            "new_text": "Text 17"
+        },
+        {
+            "id": 18,
+            "orig_text": "＋＋気を付けるんだよ。",
+            "new_text": "Text 18"
+        },
+        {
+            "id": 19,
+            "orig_text": "ナセル！良かった、\n元気そうで。\n逢いたかったわ。",
+            "new_text": "Text 19"
+        },
+        {
+            "id": 20,
+            "orig_text": "＋やぁ！ナセル！\n帰ってたんだ。\n−最近川の汚れが\n目立ってね、\nおふくろに水薬を\n飲ませられないんだ。\n困ったなあ。",
+            "new_text": "Text 20"
+        },
+        {
+            "id": 21,
+            "orig_text": "あら！＠ナセルちゃん！\n大きくなったわね。\nいつ帰ってきたの？",
+            "new_text": "Text 21"
+        },
+        {
+            "id": 22,
+            "orig_text": "ごめんなさい。\nまだ帰ってないのよ。",
+            "new_text": "Text 22"
+        },
+        {
+            "id": 23,
+            "orig_text": "最近どうも町の外の\n様子が変なんだ。",
+            "new_text": "Text 23"
+        },
+        {
+            "id": 24,
+            "orig_text": "まさか、またでかけちまう\nんじゃないだろうね。",
+            "new_text": "Text 24"
+        },
+        {
+            "id": 25,
+            "orig_text": "お母さんに心配\nかけるんじゃないよ。",
+            "new_text": "Text 25"
+        },
+        {
+            "id": 26,
+            "orig_text": "町外れの洞窟には\n不思議な水晶が\nあるらしいわよ。",
+            "new_text": "Text 26"
+        },
+        {
+            "id": 27,
+            "orig_text": "化物が出るなんて\n何が起こったのだろう。",
+            "new_text": "Text 27"
+        },
+        {
+            "id": 28,
+            "orig_text": "化物が恐くて、\n夜も寝られないよ。",
+            "new_text": "Text 28"
+        },
+        {
+            "id": 29,
+            "orig_text": "この先のエルフの村\nには、魔法の杖があるって\nうわさよ。",
+            "new_text": "Text 29"
+        },
+        {
+            "id": 30,
+            "orig_text": "今度また手合わせして\nくれよな。",
+            "new_text": "Text 30"
+        },
+        {
+            "id": 31,
+            "orig_text": "あの洞窟に魔物が\n出るなんて・・・。",
+            "new_text": "Text 31"
+        },
+        {
+            "id": 32,
+            "orig_text": "魔物が出るって噂は\n本当なの？ナセル。",
+            "new_text": "Text 32"
+        },
+        {
+            "id": 33,
+            "orig_text": "洞窟に魔物が\n出たんですって？\n物騒な話ね。＠",
+            "new_text": "Text 33"
+        },
+        {
+            "id": 34,
+            "orig_text": "＋ほう、あの扉に\n興味があるのかえ？\nあの扉は、魔法で\n封じられている。\nその封印を解くには\nこの”破邪の剣”が\n必要じゃ。\n持って行くがよい。\n−あの扉に入るなら\nかくごがいるぞえ。齔\n母親に逢ってから\nいくがよいぞ。\n＋生きて戻れるか\n分からないからの。",
+            "new_text": "Text 34"
+        },
+        {
+            "id": 35,
+            "orig_text": "おじさまは\nドワーフの町に\n行くと言ってたわ。",
+            "new_text": "Text 35"
+        },
+        {
+            "id": 36,
+            "orig_text": "あっ、ナセル。\nさっきダグが\n探していたわよ。",
+            "new_text": "Text 36"
+        },
+        {
+            "id": 37,
+            "orig_text": "＋ナセル・・・。\n＋きっと無事で\n帰ってきてね。\n約束よ。",
+            "new_text": "Text 37"
+        },
+        {
+            "id": 38,
+            "orig_text": "＋＋無茶しないでね。",
+            "new_text": "Text 38"
+        },
+        {
+            "id": 39,
+            "orig_text": "＋＋あっ、ナセル！\n聞いたかい？\n大変なんだ！\nギルスが洞窟の中に\n残ってるらしいんだ。\nなんでも足を怪我して\n逃げ遅れたって。齔\nギルスは僕の母さんの\n為にエルフの町まで\n薬を取りに行って\nくれてたんだ。\n村長さんに言って\n洞窟の入口を\n開けてもらわなきゃ。",
+            "new_text": "Text 39"
+        },
+        {
+            "id": 40,
+            "orig_text": "ごめんなさいね。\nうちの人、ついさっき\n教会に出かけちゃった\nのよ。",
+            "new_text": "Text 40"
+        },
+        {
+            "id": 41,
+            "orig_text": "ああ、ナセルちゃん。\nちょっと待ってね。",
+            "new_text": "Text 41"
+        },
+        {
+            "id": 42,
+            "orig_text": "気を付けるのよ。",
+            "new_text": "Text 42"
+        },
+        {
+            "id": 43,
+            "orig_text": "ナセル。\nいい所に来た。\n実はお前に頼みが\nあってな。\n頼みというのは\n他でもない、ギルスの\n事なんじゃ。\nギルスがあの洞窟に\n閉じ込められたという\n話はお前も聞いたな。齔\n帰ってきたばかりの\nお前には酷だが\nこの町で、魔物達と\n戦えるのは\nお前だけなんじゃよ。\n水が濁った事と\n関係あるかも\nしれんしな。\nこの町を救うためだ\nと思って行ってくれ。齔\n［おお、そうじゃ。\nフィリップス王子\nへの手紙］と、少ないが\nこれで旅の準備を\n整えてくれ。\n洞窟の入口は\n開けておこう。\n装備を整えてから\n行くようにな。",
+            "new_text": "Text 43"
+        },
+        {
+            "id": 44,
+            "orig_text": "＋母親に逢ってから\nいくことじゃ。",
+            "new_text": "Text 44"
+        },
+        {
+            "id": 45,
+            "orig_text": "＋魔物ってこの町にも\n襲って来るのかしら。",
+            "new_text": "Text 45"
+        },
+        {
+            "id": 46,
+            "orig_text": "＋＋ギルス大丈夫かなあ。",
+            "new_text": "Text 46"
+        },
+        {
+            "id": 47,
+            "orig_text": "頑張ってくれよ。",
+            "new_text": "Text 47"
+        },
+        {
+            "id": 48,
+            "orig_text": "どこから迷い込んだか\n知らんが、\n可愛いもんじゃ。\n抱いてみるかえ？",
+            "new_text": "Text 48"
+        },
+        {
+            "id": 49,
+            "orig_text": "＋ありがとう。\nさっきギルスが\n帰って来たよ。\n＋でもナセル・・・。\nまた行ってしまうの\nかい？なぜわざわざ\n危険な所へ行こうと\nするの？\nレイアが\n心配していたよ。",
+            "new_text": "Text 49"
+        }
+    ],
+    "blobs": []
+}
