@@ -1,4 +1,6 @@
-(This is a pretty rough translation... don't take the details too seriously. Also only doing the parts necessary for understanding the backstory; does not include the "how to play" pages.)
+This is a pretty rough translation that I'm mainly doing for my own reference, to make sure I'm reasonably aware of the backstory that the in-game text refers to. I haven't worked too hard on it; don't take the details too seriously. I'm also only doing the parts necessary for understanding the backstory; this does not include the "how to play" pages or anything.
+
+A scan of the original manual is available at https://archive.org/details/LagoonX68000. 
 
 Map page
 --------
@@ -6,7 +8,7 @@ Map page
 これが冒険の舞台だ！
 この世界を救うことができるのは
 ナセル、君だけだ！
-This is the setting of the adventure! Saving this world is possibly only for you, Nassel!
+This is the setting of the adventure! Only you, Nassel, can save this world!
 
 Story
 -----
@@ -18,16 +20,17 @@ Prologue
 またさらなる星の流れは　光を求め
 神々の落とした涙　月の光を生み
 その光をもって　 闇を照らすであろう
-A flow of billions of stars... calling to the dark...
-A flow of yet more stars... calling to the light...
+A stream of billions of stars... seeking the dark...
+And a stream of yet more stars... seeking the light...
 Tears shed by the gods... the birth of moonlight...
-With this light... let the dark be illumined...
+Holding this light... may the dark be illumined...
 
 　　　　　　　　　　　この伝説を語れるのは、
 限られた者だけになってしまったというが ……。
-Though it is said that this legend can only be told by few...
+Though it is said that few now tell this legend...
+(lit: It is said that, as for the telling of this legend, there have come to be only limited people, but...)
 
-　去りし日、過去歷300年初日。レイクリーランドの地には、 闇 がはびこ
+　去りし日、過去歴300年初日。レイクリーランドの地には、闇がはびこ
 り始めていた。この地に平静を取り戻すべく、辺境から7人の魔導士が
 集結した。後らは太古の秘術を用い、神を召喚した――はずだった。が、
 そこには凄惨な鬼気とともに、邪神が上体をもたげていた。
@@ -37,27 +40,36 @@ Though it is said that this legend can only be told by few...
 が、仲間を犠牲にするという禁断の呪法により、かろうじて封印するこ
 とができた。そのため、7人のうち3人が呪文の犠牲になり、残ったのは、
 マティアス、ゼラー、デュマ、バトラーの4人だけであった。重々しい恐
-怖がしばらくの 間、彼らの体を縛りつけていた。安堵感が意識を覚醒さ
+怖がしばらくの間、彼らの体を縛りつけていた。安堵感が意識を覚醒さ
 れたのは、鳥のざわめく声が聞こえた時であった。だが、安らいだ表情
 の中に、どす黒い欲望の影を落としていた者がいたことを他の者は見て
 とっただろうか――。
-In an age long ago, it was the first day of the 300th year. In the land of Lake Leland, darkness was beginning to spread. To restore peace to this land, seven mages gathered from its frontiers. Using ancient arts, they summoned forth God—or so they intended. But along with a gruesome dread, a demon raised its torso.
-A tempest swept about them, and the mages' bodies were assailed by its rage. A darkness deeper than dark came into being there. The struggle between the mages and the demon was violent to the extreme, and it seemed that they would yield to the demon's mighty power.
-However, using a forbidden ritual said to use one's allies as sacrifices, they were barely able to seal it. For this purpose, three of the seven were made sacrifices for the ritual, and only the four who remained—Mathias, Zerah, Duma, and Battler—joined together. For a brief, dreadful moment, their bodies were restrained. But a feeling of relief brought them back to consciousness, as they heard the voices of birds astir. However, within those relaxed expressions, did the others realize that there was one who cast a shadow of dark desire...?
+In distant days, this was the day that began these past 300 years.[1] In the land of Lake Leland, darkness was beginning to spread. To restore peace to this land, seven mages gathered from its frontiers. Making use of ancient arts, they[2] summoned forth God[3]—or so they intended. But then, as the air turned grim[4], a demon lifted its torso.
+A tempest swept about them, and the mages' bodies were assailed by its rage.[5] There existed there a darkness deeper than darkness. The struggle between the mages and the demon was violent to the extreme, and it seemed that they would yield before the demon's mighty power.
+However, by means of a forbidden ritual said to use one's allies as sacrifices, they were barely able to seal it. For this purpose, three of the seven were made sacrifices for the ritual, and only four remained—Mathias, Zerah, Duma, and Battler. For a deeply dreadful moment, their bodies were bound. But the reassurance that restored their senses came when they heard the voices of birds astir[6]. However, amid those relieved expressions, did the others realize that there was one who cast a shadow of dark desire...?
+
+[1] This seems to be some pretty fancy literary language, and I'm not too sure what to make of it. I think this is pretty much what it comes down to, but I can't be sure.
+[2] This is pretty clearly written 「後ら」 in the text, but there's no such word as far as I can tell. Pretty sure it's just a typo for 「彼ら」.
+[3] Or "a god." I don't have any terribly strong reason to go one way or the other.
+[4] lit: However, at that time, along with a gruesome ghastliness...
+[5] lit: The flow of air was disturbed, and the turbulence assailed the mages' bodies.
+[6] lit: As for the feeling of relief that awakened their consciousness, it was when the rustling voices of birds were heard.
   
 　　　　　　　　　　　　　その男――ゼラーは、
 邪神の圧倒的な力に魅せられ、その力を手中に納め
 ようとしていた。しかし自分だけでは、あれ程の力
 を操ることができないと踏んだゼラーは、太古の文
 献にある<闇の皇子>を搜し出すことにした。
-That man—Zerah—was fascinated by the demon's overwhelming power, and sought to make that power his own. However, concluding that he could not control that degree of power alone, Zerah chose to seek the <Dark Scion> from ancient documents.
+That man—Zerah—was fascinated by the demon's overwhelming power, and sought to make that power his own. However, concluding that he could not control that degree of power alone, Zerah chose to seek the <Dark Scion>[1] from ancient documents.
+
+[1] 「皇子」 is pronounced the same as 「王子」 (prince), but it specifically refers to a son of the emperor, which is more srs bsns than just some plain old prince. "Imperial Prince of Darkness" is pretty unwieldy in English, though, so we'll go with this.
 
 　　　　　　　　　　　　　　　　　　<闇の皇子>は神々の戦いが終わって
 から数百億年後に、闇の神々の生れ変りとしてこの世に現れ、その姿は普通の
 人間に似てその肌の色は不気味な程白く、金髮をたなびかせ、この世ならぬ美
 しい姿をしているという。ただひとつ違うのは、瞳の色が左右違う邪眼であり、
 見る者を恐れさせるということだけだろうか。
-They said that billions of years after the end of the battles of the gods, the <Dark Scion> would appear in this world as a reincarnation of the dark gods, in a form similar to a normal human, with uncannily pale skin, trailing golden hair, and beautiful like nothing of this world. But the one difference was that it would have evil eyes whose colors were mismatched, and it might be feared by all who saw it.
+They said that billions of years after the end of the battles of the gods, the <Dark Scion> would appear in this world as a reincarnation of the dark gods, in a form similar to a normal human, with uncannily pale skin, trailing golden hair, and beautiful like nothing of this world. But the one extraordinary thing was that it would have evil eyes whose colors were mismatched, and that alone would cause fear in all who saw it.
 
 　　　　　　　　　　　ゼラーが <闇の皇子>
 を捜し出す旅に出てから300年の月日が流れて
@@ -66,7 +78,9 @@ They said that billions of years after the end of the battles of the gods, the <
 色の右目、赤色の左目をもつその子は「ソア」と
 名付けられた。彼は、この世に生を受けたその
 瞬間から、全ての者に忌み嫌われていた。
-300 years have passed since Zerah began his journey in search of the <Dark Scion>. On a small nameless island that lay in the north of Lake Leland, a baby was born. This child, who had a gray right eye and a red left eye, was given the name "Thor." And from the moment his life in this world began, he was loathed by all people.
+300 years have passed since Zerah began his journey in search of the <Dark Scion>. On a small nameless island that lay in the north of Lake Leland[1], a single baby was born. This child, who had a gray right eye and a red left eye, was given the name "Thor." And from the moment he came into the world, he was loathed by all.
+
+[1] This is written as "Lake Leanland" or something in the original, but that spelling isn't used anywhere else, so I think it's just a typo.
 
 　　　　　　　　　　　　　　まだ産み月に満たないうち
 に、母親の腹を破って生まれ、その上産声のひとつもあげ
@@ -82,9 +96,12 @@ They said that billions of years after the end of the battles of the gods, the <
 だけであった。しかし、ただひとりそんなソアを哀れに思
 い、彼を引きとり育ててくれた老婆がいた。エルワーとい
 う名のその老婆は、５歳になったソアを呼びこう言った。
-He tore his way from his mother's stomach when the month of his birth had barely begun, and moreover, he cried not at all. 
-And what made everyone afraid was the color of his eyes. They were called evil eyes, as in the legend. 
-After Thor's birth, livestock were sickened and crops were poor, and his evil eyes were said to be the reason. Despite such tragic circumstances, he was given mysterious powers. Around his second birthday, he was able to speak perfectly, and he was also able to predict whatever would happen on the next day. But such powers only led to more fear from the humans around him. Nonetheless, there was one old woman who felt pity for this Thor and took over his upbringing. This old woman, named Elwah, called thus to Thor when he reached his fifth year:
+He tore his way from his mother's womb when the month of his birth had barely begun, and moreover, he cried[1] not at all.
+And that which caused fear in everyone was the color of his eyes.[2] Just as in the legend, they were called evil eyes. 
+After Thor's birth, livestock were sickened and crops were poor, and his evil eyes were said to be the cause of it all. As though in exchange for these disasters, he developed mysterious powers. Around his second birthday, he was able to speak perfectly, and he was also able to predict whatever would happen on the next day. But such powers also led only to more fear from the humans around him. Nonetheless, there was one ordinary old woman who felt pity for this Thor and took on his upbringing. This old woman, named Elwah, called to Thor when he reached his fifth year, and spoke thus:
+
+[1] Specifically, 「産声」 refers to a baby's cries immediately after birth. 
+[2] 「そしてはにより」 seems like an odd combination of grammar, and I'm not sure quite how to interpret it.
 
 『ソアや、よくお聞き。確かにおまえは、他の子と少し違
 うかもしれない。あたしはみんなが言うように、おまえを
@@ -94,15 +111,15 @@ After Thor's birth, livestock were sickened and crops were poor, and his evil ey
 『でも、ばあちゃん。みんなが僕をいじめるんだ。』
 『それはよく解っているよ。でもね、おまえは賢い子だか
 ら言うが、あたしはもう長くはない。あたしが死んだらお
-まえどうやって 生きていくんだい？』
+まえどうやって生きていくんだい？』
 『ばあちゃんが病気なのはわかってたよ。でも僕一人なん
 て絶対にいやだ。』
 『情けないことを言うんじゃない。男の子だろう。』
-"Thor, listen to me. Certainly, you may be a bit different from other children. But I'm ending up wanting to think you're a nuisance or something, like everyone says. I know you're really a gentle child. However, I'd like you to live more nicely with everyone."
+"Thor, listen to me. Certainly, you may be a bit different from other children. But I'm starting to think you're taking me for granted, like everyone says. You really are a gentle child. So I want you to get along with everyone."
 "But Nan, everyone is mean to me!"
-"I'm well aware of that. Still, although they also say you're a clever child, I'm not long for this world. How are you going to live when I die?"
-"I've known you're sick, Nan. But someone like me alone is totally bad."
-"Don't say miserable things. You're supposed to be a big boy."
+"I'm well aware of that. But you know, they also say you're a clever child, and I won't be here long. How are you going to get by when I die?"
+"I know you're sick, Nan. But there's no way I can be on my own!"
+"Don't say pathetic things. Aren't you a big boy?"
 
 　それから三日後、エルワーは息をひきとった。その時ソ
 アは一筋の涙もこぼさなかった。エルワーの葬儀が終わっ
@@ -111,13 +128,13 @@ After Thor's birth, livestock were sickened and crops were poor, and his evil ey
 ましょう。』
 『誰だ？おまえは。』
 『御身にお仕えする、ゼラーと申します。』
-　それから13年、ソアはゼラーの元で厳しい修行に酎えた耐えた。
+　それから13年、ソアはゼラーの元で厳しい修行に耐えた。
 どんなものにも負けない、強い力を手に入れるために。
-Three days later, Elwah breathed her last, and Thor shed not a tear on the occasion. Near the end of Elwah's funeral, a robed old man appeared before Thor.
-"You're the one I sought, the Dark Scion. Now, please accompany me."
+Three days later, Elwah breathed her last, and Thor shed not a tear on the occasion. Near the end of Elwah's funeral, an old man in robes came before Thor.
+"I have been seeking you, O Dark Scion. I ask now that you come with me."
 "Who are you?"
-"I am your humble servant, known as Zerah."
-For the next thirteen years, Thor endured rigorous training with Zerah, so that he would gain strength which would be defeated by no one.
+"Your servant Zerah, my lord."
+For the next thirteen years, Thor endured rigorous training with Zerah, to gain great power which no one would overcome.
 
 　　　　　　　　　　　　――方、ソアの誕生から
 約１年後、アトランドの刀鍛冶の家では<ムーンブレ
@@ -134,16 +151,16 @@ For the next thirteen years, Thor endured rigorous training with Zerah, so that 
 話した。そしてこのレイクリーランドを闇の手から
 救えるのは、<ムーンブレイドの勇者>であるナセル
 だけだと。
-Meanwhile, about a year after the birth of Thor, in the house of a weaponsmith in Atland, a boy was born with a crescent-shaped birthmark on his right shoulder that predicted he would become the <hero of the Moonblade>. His parents named him Nassel.
-Nassel was raised a lively and kindhearted youth. At an early age, he was introduced to swordsmanship using the blades made by his father, and already displayed prodigious skill. 
-One day, a monk visited Nassel's house. The monk introduced himself as Mathias. He said that Nassel was undoubtedly the hero of the Moonblade, and that he intended Nassel's father Roy to create the Moonblade. And that  Nassel, as the hero of the Moonblade, was the only one who could save Lake Leland from the hand of darkness.
+Meanwhile, about a year after the birth of Thor, in the house of a weaponsmith in Atland, a boy was born with a crescent-shaped birthmark on his right shoulder that predicted he would be the <hero of the Moonblade>. His parents named him Nassel.
+Nassel was raised a lively and kindhearted youth. At an early age, he took easily to swordsmanship using the blades made by his father, and already displayed prodigious skill. 
+One day, a monk visited Nassel's house. The monk introduced himself as Mathias. He said that the hero of the Moonblade was undoubtedly Nassel, and that he hoped Nassel's father Roy would be the one to make the Moonblade. And that Nassel, the hero of the Moonblade, was the only one who could save Lake Leland from the hand of darkness.
 
 　両親は驚いたが、4年間だけという条件をつけて、
 ナセルをマティアスのもとに預けることにした。4年
 間ナセルは、剣技と魔法、そして自分の宿命をマテ
 ィアスから学び、故郷の町に帰ってきた… … …。
 ――そして風は伝説の成就を告げた――
-Although Nassel's parents were surprised, they entrusted Nassel into Mathias' care, adding the condition that it be for only four years. For four years, Nassel learned of swordsmanship and magic, and of his own destiny, from Mathias, and returned to his home town.
+Although Nassel's parents were surprised, they entrusted Nassel into Mathias' care, on the condition that it be for only four years. For four years, Nassel studied swordsmanship and magic, and his own destiny, under Mathias, and now has returned to his home town.
 —And the winds told of the fulfillment of the legend—
 
 ムーンブレイドの伝説
@@ -176,11 +193,11 @@ The Legend of the Moonblade
 いている。その勇者は、闇を支配するものの
 誕生から、ちょうど1年後に生まれ、いずれ
 は闇と戦うことになるという。
-Many ages ago, a fragment of a holy sword used in the wars of the gods fell to earth, became an ore, and spent a long time within the earth, their true nature concealed. 
-This ore possessed magical powers, and a sword forged from the ore would be the only weapon to fight against an evil god. 
-Everyone was obsessed with the allure of the sword's legend and sought out the ore, but not one of them was able to return with them. 
-Regardless of their veracity, in stories told by humans who said they had seen it, the ore was said to glow milky white, beautiful like the reflection of the moon on a lake. Because of those stories, the stone came to be called the Moonstones, and the sword, the Moonblade, Taking the Moonblade is possible for only one person, a chosen hero. In the hands of the hero, the Moonblade will become feather-light, moving as its master wills, and emitting a magical light. However, if a person the Moonblade does not recognize as its master grasps its hilt, it would become suddenly heavy as though it had transformed into the whole earth, and that person would be shown strange illusions. 
-According to the legend, the hero of the Moonblade will have, at the time of birth, a mark in the shape of the moon on their right shoulder. The hero will be born exactly one year after the one who rules the darkness, and in time will battle the darkness. 
+Many ages ago, fragments of a holy sword used in the wars of the gods fell to earth, became mineral veins, and waited endlessly within the earth. 
+This mineral possessed magical powers, and a sword forged from it would become the only weapon able to battle against evil gods. 
+Many were charmed by the allure of the sword's legend and sought out this mineral, but none was able to return with it. 
+Regardless of their veracity, in stories told by humans who said they had seen it, the ore was said to glow milky white, beautiful like the reflection of the moon on a lake. Because of those stories, the stone came to be called the Moonstone, and the sword, the Moonblade. Only one person, the chosen hero, can hold the Moonblade. In the hands of the hero, the Moonblade will become feather-light, moving as its master wills, and emitting a magical light. However, if a person the Moonblade does not recognize as its master grasps its hilt, it will become suddenly heavy as though they hold the earth itself, and that person will be shown strange illusions. 
+According to the legend, the hero of the Moonblade be marked at birth with the shape of the moon on their right shoulder. The hero will be born exactly one year after the one who controls the darkness, and in time will battle the darkness. 
 
 王家の血筋
 The Royal Lineage
@@ -195,8 +212,12 @@ The Royal Lineage
 なぜなら、ラグーン城から湧きだす水は、域が
 地上から離れたとたんに輝きを失い、臣民達の
 生活を危うくするために他ならない。
-The royal family of Lake Leland possess the power to move Lagoon Castle. In particular, that blood is markedly passed down to the firstborn princess. However, there is a law that says this power should not be used except in emergency situations of repeated crises to the kingdom. 
-And, it says that the use of this power should not be valid except by the will of the princess. This is because the water that springs from Lagoon Castle loses its radiance as soon as the castle separates from the ground, and the well-being of her subjects should not be endangered. 
+The royal family of Lake Leland possess the power to move Lagoon Castle. This bloodline tends to pass particularly to the firstborn princess[1]. But this power, by law, is not used except as an emergency measure in times when the kingdom experiences recurring crises.
+Moreover, the law says that this power is only to be used at the discretion of the princess[2]. This is because the water that springs from Lagoon Castle loses its radiance as soon as the castle leaves ground, and no other should endanger the lives of her subjects[3]. 
+
+[1] I know I said earlier that 「皇子」 is a particularly special term for Thor... but here they use the corresponding term 「皇女」 for someone who's just the daughter of a king rather than an emperor. So, I don't know. Maybe they're just being fancy.
+[2] 「皇女の意志のもとに行う」 (lit: "to carry out by the princess's intention's authority"?) seems like a pretty fancy phrase... I think this is more or less what it means, but I'm not totally sure. 「もと」 has a lot of meanings.  
+[3] lit: "for the purpose of making subjects' lives risky, there cannot be other people"? Or something like that.
 
 # Items
 

@@ -6,6 +6,8 @@ While Lagoon was later ported to the SFC/SNES and released in English, significa
 
 Please note that my Japanese is pretty terrible, so there are likely all kinds of mistakes in the translations contributed by me. I won't object too much if someone better at reading Japanese submits improved translations to this project.
 
+I have also transcribed and translated the plot and item-related sections of the manual, mostly for my own reference. Those are available in the repository [here](doc/manual_translation.txt); I'll probably include that file in future releases of the patch as well. The original manual I'm basing this on is scanned online [here](https://archive.org/details/LagoonX68000).
+
 ## Building the patch
 
 (I will eventually be releasing this as an IPS or BPS patch or some such, so building it yourself is only necessary if you're making modifications to it yourself, or if you really want to preview the work in progress.)
