@@ -1,16 +1,16 @@
 "あんた、あの女の子の
 恋人かい？
 いやぁ。言わなくていいよ。
-人には色々あるからね。","Are you that girl's lover?
-No, you don't have to
-say! You can be various
-things to people.",
+人には色々あるからね。","Are you that girl's
+lover? No, you don't
+have to tell me! There's
+all kinds of people!",*** CONFIRMED ***
 "この先には氷に閉ざされた洞
 窟がある。毛皮のマントがな
 ければ凍え死ぬじゃろう。","There's a cave closed off
 by ice past here. Without
 a Fur Cloak, you'll
-probably freeze to death.",
+probably freeze to death.",*** CONFIRMED ***
 "おお。
 君がムーンブレイドの勇者か。齔
 よくぞ参られた。だがお前に
@@ -37,54 +37,55 @@ probably freeze to death.",
 ムーンブレイドが必要だ。
 なんとしても取り返すのだ。","Oh, you're the hero
 of the Moonblade?\
-I bid you welcome.
+You are welcome here.
 However, I have some
 unfortunate news for you.\
-Your father has been
-captured by monsters
-in Atland! Along with
-the Moonblade...\
-All we could do was
-rescue one girl named
+Monsters have attacked
+Atland, and your father
+was captured. Along
+with the Moonblade...\
+It was all we could do
+to rescue one girl named
 Reia. I'm very sorry.\
-Nassel... I daresay what
-they plan to revive now
-could be the same god of
-darkness that appeared
-300 years ago. Back
-then, there were wizards
-who are said to have
-sealed it away. But it
-probably won't go like
-that this time, because
-there is now someone who
-can control the demon.
-Thor is his name.
-He has appeared, just as
-the prophecy foretold.\
-The Moonblade is essential
-if you are to defeat him.
+...Nassel, right?
+I daresay what they plan
+to revive now is the same
+dark god that appeared
+300 years ago. There are
+said to have been wizards
+who sealed it away back
+then, but this time...
+There's someone who
+can control that
+demon now, you see.\
+Thor is his name. He
+has come, just as the
+prophecy foretold.\
+You cannot defeat him
+without the Moonblade.
 No matter what it takes,
 you must recover it!
-",
+",*** CONFIRMED ***
 "雷光の杖は、ニンフが
 持っているはずよ。齔
 これは、ニンフを呼び出す
 為の、羽衣の鐘。
-湖のほとりで使いなさい。","The nymphs ought to
-have a Boltlight Staff.\
+湖のほとりで使いなさい。","The nymphs should
+be keeping a
+Thunderbolt Staff.\
 This is an Angel Bell,
-for summoning them.
-Use it by the lake!",
+for summoning the
+nymphs. Use it on the
+banks of the lake!",*** CONFIRMED ***
 "この間、化け物に捕まっていた
 人間の女の子を、助けたんだ。
 とってもいい子だよ。","Not long ago, we rescued
 a human girl who was
 imprisoned by monsters.
-Such a good child!",
+Such a good child!",*** CONFIRMED ***
 "わぁ、びっくりした。
-人間が入って来るなんて。","Wah, that's a surprise!
-Human visitors!",
+人間が入って来るなんて。","Whoa, that's a surprise!
+Human visitors!",*** CONFIRMED ***
 "ニンフ達が姿を見せないと
 寂しくっていけねぇや。","If the nymphs don't
 show up, you can't
@@ -113,16 +114,15 @@ go on alone!",
 私だけが助かるなんて
 ・・・。","Nassel!!
 You're safe!\
-+@But it's terrible...
+^@But it's terrible...
 Monsters showed up
 in Altand, and
 they've captured
 your father.
-+They had me too at
-first, but the
-gnomes rescued me
-here. Your father,
-though...
+^They got me too, but
+these gnomes saved
+me. Your father,
+though...\
 The monsters seemed
 to be after the
 Moonblade he was
@@ -130,10 +130,9 @@ making.
 Where could they
 possibly have taken
 him?\
-+@...I'm sorry,
-Nassel. I couldn't
-do anything to help
-on my own...",
+^@...I'm sorry,
+Nassel. I'm the only
+one who escaped...",*** CONFIRMED ***
 "寒いうえに化け物が出るから
 始末に負えん。ブルブルッ。","I can't deal with starving
 in the cold, and the
@@ -142,18 +141,18 @@ monsters appearing! Brr...",*** NEEDS REVISITING ***
 ないじゃろ。齔
 いくらお前さんが強くても、
 ムーンブレイドなしでは闇の
-力には勝てんぞ。","There's no use
-rushing off alone!\
+力には勝てんぞ。","It's no use getting
+all worked up!\
 No matter how strong you
-are, without the Moonblade,
-you won't win against
-the power of darkness.",
+are, you're no match
+for the dark powers
+without the Moonblade.",*** CONFIRMED ***
 "この鐘を鳴らせば、
 ニンフは現れるでしょう。","If you ring this bell,
-the nymphs should appear.",
+the nymphs should come.",*** CONFIRMED ***
 "＋＋＋・・・なんて言ったら
 いいのか。
 ごめんなさい、ナセル
-・・・。","+++...I don't know what
+・・・。","^^^...I don't know what
 to say.
-I'm sorry, Nassel...",
+I'm sorry, Nassel...",*** CONFIRMED ***
