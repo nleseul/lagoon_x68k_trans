@@ -207,10 +207,9 @@ def create_lagoon_x_patch(orig_data):
     #    という訳じゃ。
     #    ・・難しい漢字ばかりで
     #    ナセルには読めなかった
-    patch.add_record(0x5a1a, text_util.encode_english('...the... and...\n'
-                                                      '...but it...\n'
-                                                      '...so we...\n'
-                                                      '...I think.\\\n'
+    patch.add_record(0x5a1a, text_util.encode_english('It seems to say:\n'
+                                                      '"...the...and...\n'
+                                                      ' ...but it...so..."\\\n'
                                                       'It\'s nothing but\n'
                                                       'difficult words, and\n'
                                                       'Nassel can\'t read it.', 123))
@@ -227,7 +226,8 @@ def create_lagoon_x_patch(orig_data):
                                                       'in our endeavors.\\\n'
                                                       'You can do no more with\n'
                                                       'what power you have.\\\n'
-                                                      'You will obey me!', 132))
+                                                      'Obedience is for\n'
+                                                      'your own good.', 132))
 
     # Request a data disk. Filled in at runtime with the disk number. Seems to need
     # padding to 30 characters?
