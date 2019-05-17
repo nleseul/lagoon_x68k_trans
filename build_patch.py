@@ -305,6 +305,27 @@ def create_lagoon_x_patch(orig_data):
                                                       'The user disk is in a       \n'
                                                       'protected state.            \n', 85))
 
+    # Copy protection text. I've seen this trigger before when I tried
+    # to copy the game data to a hard drive, but I haven't been able to
+    # reproduce with this text injected. Hopefully it works...
+    # Original text:
+    #   どうやらコピーに失敗したようで
+    #   すよ。未熟者ですねェ。まぁ、い
+    #   いでしょう。　ラグーンの評価版
+    #   として、最初のボスまでみせてあ
+    #   げましょう。　いよっ！太っ腹！
+    #   ・・・と言う訳で、続きがやりた
+    #   かったら、本物を買ってね。
+    #   －　ラグーン　スタッフ一同　－
+    patch.add_record(0x5b1e, text_util.encode_english('Looks like the copy failed!   \n'
+                                                      'New at this, huh? Well, that\'s\n'
+                                                      'okay. Here\'s the trial version\n'
+                                                      'of Lagoon, up to the first    \n'
+                                                      'boss. Wow! How generous!      \n'
+                                                      '...So buy it legitimately to  \n'
+                                                      'play the rest of it, okay?\n'
+                                                      '      - Lagoon Staff -        \n', 251))
+
     # Game over!
     patch.add_record(0x4fc7, text_util.encode_english('Game Over', 20))
 
