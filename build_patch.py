@@ -243,14 +243,14 @@ def create_lagoon_x_patch(orig_data):
     patch.add_record(0xc283, text_util.encode_english('3', 3))
 
     # Offset in the first line to the blank where the digit goes.
-    patch.add_record(0x6a49, b'\18')
+    patch.add_record(0x6a49, b'\x18')
 
     # Request the user disk. Seems to need padding to 30 characters?
     # Original text:
     #   ドライブ０にユーザーディスクを
     #   セットして下さい　　　　　　　
     patch.add_record(0x71d1, text_util.encode_english('Please insert the user disk   \n'
-                                                      'into drive 1.                 ', 63))
+                                                      'into drive 0.                 ', 63))
 
 
     # User disk creation messages. Note spacing to maintain
