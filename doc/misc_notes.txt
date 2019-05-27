@@ -59,7 +59,12 @@ Timing for random NPC dialog is set up at 0x7f550. 0x898ba actually ticks the co
 
 Starting around 0x18120 is a scripty thing that handles the cut scene in the dwarf cave. It has the start addresses of the dialog embedded in it. Processing ofthat script happens around 0x8c010. 0x13 shows text, which is handled at 0x8c1ca.
 
-
+0x89d3e is where the scan of the animation frame table starts.
+0x86e2c subroutine sets up the animation somehow.
+0x16459 is some kind of data table, but I'm not sure what's in it.
+Also 0x1620f? I think that one is just used in the portrait wipe effect.
+I think at 0x89c9c is where the animation frame numbers actually get loaded? The table is at 0x16484. 16 bytes per character?
+0x165c4 is the punctuation blinks?
 
 0x4e71 - NOP
   

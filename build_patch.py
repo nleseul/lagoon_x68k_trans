@@ -79,8 +79,9 @@ def encode_animation_timing(animation_list):
 
 
             # Silly special case... there's one particularly long animation that doesn't happen
-            # to be terminated with 0x80 in the original data. Reproduce that oddity to stay consistent.
-            if len(animation) < 100:
+            # to be terminated with 0x80 in the original data. Reproduce that oddity to stay
+            # consistent. Darn it, Zerah...
+            if len(animation) < 90:
                 out_data.append(0x80)
         out_data.append(0xff)
 
@@ -396,14 +397,39 @@ def create_lagoon_x_patch(orig_data):
         for animation in character:
             if len(animation) == 1:
                 animation[0]['duration'] = 2
-            elif (len(animation) == 20 and animation[0]['duration'] == 7) or (len(animation) == 105 and animation[0]['duration'] == 8):
+            elif (len(animation) == 20 and animation[0]['duration'] == 7):
                 # An animation with length 20 using duration 7 is used by the mayor in Atland, synchronized
-                # with dialog about a letter. An animation with length 105 with duration 7 is used by Zerah in
-                # Voloh. Speed those both up to reflect the overall faster text speed.
+                # with dialog about a letter.
                 for frame in animation:
                     frame['duration'] = 4
+        if len(character) == 2 and len(character[1]) == 105:
+            # An animation with length 105 with duration 7 is used by Zerah in
+            # Voloh. This animation is all kinds of bugged, so we're going to rewrite it
+            # entirely to be more consistent with other characters' animations.
+
+            # Give him two still frames for talking.
+            character.insert(0, [{'frame': 1, 'duration': 2}])
+            character[1][0]['frame'] = 3
+
+            # Give him something vaguely glowery for punctuation.
+            character.insert(2, [{'frame': 4, 'duration': 4}, {'frame': 3, 'duration': 4}, {'frame': 2, 'duration': 4}, {'frame': 1, 'duration': 4}])
+
+            # And truncate his long bracketed animation to fit in the existing space. Note
+            # that bracketed animations seem to break if used more than once in the same
+            # dialog.
+            character[3] = character[3][:99]
 
     patch.add_record(0x16614, encode_animation_timing(animation_data))
+
+    # Now set up those new animations we added for Zerah above. He's portrait ID 0xe, minus one,
+    # so he's at index 0xd in these tables.
+    # Main talking frames are in a table at 0x16484, 16 bytes per entry. The first two bytes
+    # are the default animation; the rest aren't relevant to us now.
+    patch.add_record(0x16484 + (0xd * 0x10), b'\x01\x00')
+
+    # Punctuation animations are in a table at 0x165c4, 4 bytes per entry. I think the first
+    # one is all we care about right now.
+    patch.add_record(0x165c4 + (0xd * 0x4), b'\x02')
 
     # Double the speed of miscellaneous NPC text.
     patch.add_record(0x6a2, b'\x00\x04')
