@@ -47,7 +47,7 @@ event_operations = {
     0x23: {'length': 1},
     0x27: {'length': 2},
     0x28: {'length': 2,     'ref_pos': [0]},
-    0x29: {'length': 4}
+    0x29: {'length': 4,     'ref_pos': [0]}     # Rewrites a byte in the IVENT data
 }
 
 def unpack_ivent(reader):
