@@ -15,7 +15,7 @@ I hardly recognize you!",*** CONFIRMED ***
 "よく戻ったな。
 村長さんに挨拶したか？","Welcome back! Have
 you visited the mayor?",*** CONFIRMED ***
-お兄ちゃん、だれ？,"I don't know you, mister...",*** CONFIRMED ***
+お兄ちゃん、だれ？,"Who are you, sir?",*** CONFIRMED ***
 "素敵になったわね。
 ナセル。","How lovely you've
 become, Nassel!",*** CONFIRMED ***
@@ -223,15 +223,16 @@ open the seal. Do
 take it. 
 _But be prepared if
 you open the door!
-You should visit
-your mother before
-you go.
-^You may not return
-alive!",*** CONFIRMED ***
+Better visit your
+mother before you
+go, eh?
+^I don't know if
+you'll return alive!",*** CONFIRMED ***
 "おじさまは
 ドワーフの町に
-行くと言ってたわ。","He was talking about
-going to the town of
+行くと言ってたわ。","Your father was
+talking about going
+to the town of
 dwarves.",*** CONFIRMED ***
 "あっ、ナセル。
 さっきダグが
@@ -381,3 +382,4 @@ choose to go into
 danger?
 Reia has been
 worried about you.",*** CONFIRMED ***
+,,
