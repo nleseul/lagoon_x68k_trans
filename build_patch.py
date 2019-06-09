@@ -519,3 +519,18 @@ if __name__ == '__main__':
     with open(os.path.join(args.dest_directory, 'LAGOON.X'), 'w+b') as f:
         f.write(lagoon_x_out_data)
     print('OK')
+
+    print('Creating AUTOEXEC.BAT...', end='')
+    with open(os.path.join(args.src_directory, 'AUTOEXEC.BAT'), 'r', encoding='shift-jis') as f:
+        autoexec_lines = f.readlines()
+
+        # Splice some new text in at index 2, after the original script clears the screen.
+        autoexec_lines[2:2] = ["echo                                          Ｌａｇｏｏｎ\n",
+                               "echo                                          EN patch 0.9b\n",
+                               "echo                                      Translation by NLeseul\n",
+                               "echo  \n",
+                               "echo  \n"]
+
+        with open(os.path.join(args.dest_directory, 'AUTOEXEC.BAT'), 'w+', encoding='shift-jis') as f:
+            f.writelines(autoexec_lines)
+    print('OK')
